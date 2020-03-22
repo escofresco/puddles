@@ -23,3 +23,52 @@
 
 // Custom core
 @import 'user';
+
+
+@import "custom_bootstrap_vars";
+@import "bootstrap";
+
+
+
+
+// project specific CSS goes here
+
+////////////////////////////////
+		//Variables//
+////////////////////////////////
+
+// Alert colors
+
+$text: #EDF5E1;
+$black: #000;
+$mint-green: #8EE4AF;
+$green: #5CDB95;
+$dark-green: #379683;
+$navy-blue: #05386B;
+
+////////////////////////////////
+		//Alerts//
+////////////////////////////////
+
+// bootstrap alert CSS, translated to the django-standard levels of
+// debug, info, success, warning, error
+
+.alert-debug {
+  background-color: $white;
+  border-color: $mint-green;
+  color: $black;
+}
+
+.alert-error {
+  background-color: $pink;
+  border-color: $navy-blue;
+  color: $red;
+}
+
+body {
+background-color: $green !important;
+}
+
+a {
+  color: red !important;
+}
