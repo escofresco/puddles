@@ -25,8 +25,16 @@
     <a class="btn btn-primary" href="{% url 'account_email' %}" role="button">E-Mail</a>
     <!-- Your Stuff: Custom user template urls -->
   </div>
-  
-  <div class="showScore">{% object.score %}</div>
+
+  <div class="showScore">
+    <p>Puddle Score:
+        {% if object.score %}
+            {{ object.score }}
+        {% else %}
+            1
+        {% endif %}
+    </p>
+  </div>
 
 </div>
 <!-- End Action buttons -->
@@ -35,4 +43,3 @@
 
 </div>
 {% endblock content %}
-
