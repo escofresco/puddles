@@ -2,6 +2,10 @@
  * Custom variables followed by theme variables followed by Bootstrap variables
  * to ensure cascade of styles.
  */
+body {
+  font: 100% Helvetica, sans-serif;
+  color: red; }
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
