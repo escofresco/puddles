@@ -1,7 +1,6 @@
 {% load static i18n compress%}<!DOCTYPE html>
 <html lang="en">
   <head>
-      {% comment %}
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>{% block title %}Puddles{% endblock title %}</title>
@@ -27,8 +26,7 @@
 
     {% endcompress %}
     {% endblock %}
-    {% endcomment %}
-    {% include "partials/_head.html" with title="Puddles" %}
+    {# {% include "partials/_head.html" with title="Puddles" %} #}
   </head>
 
   <body>
