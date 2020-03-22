@@ -1,0 +1,18 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Decalotype-Bold
+font link: https://hanken.co/product/decalotype/
+font author: Hanken Design Co.
+font author site: https://hanken.co/
+
+
+icon designer: Alexander Skowalsky
+icon designer link: /sandorsz
+        
+
+fontColor: {"hex":"#05386b"}
+bgColor: {"hex":"#5cdb95"}
+iconColor: {"hex":"#05386b"}
+
+      
