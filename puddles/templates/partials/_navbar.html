@@ -1,10 +1,10 @@
-{% load static i18n compress %} 
+{% load static i18n compress %}
 <nav class="navbar navbar-expand-lg {{ classList }}">
   <div class="{% if type == 'boxed' %}container{% else %}container-fluid{% endif %}">
 
     <!-- Brand -->
     <a class="navbar-brand" href="{% url 'home' %}">
-      <img src="{% static 'puddles/static/images/logo/vector/default-monochrome-black.svg' %}" class="navbar-brand-img" alt="...">
+      <img src="{% static 'images/logo/vector/default-monochrome.svg' %}" height=42 class="navbar-brand-img" alt="...">
     </a>
 
     <!-- Toggler -->
