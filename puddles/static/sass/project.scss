@@ -13,12 +13,12 @@
 
 // Alert colors
 
-$white: #fff;
-$mint-green: #d6e9c6;
+$text: #EDF5E1;
 $black: #000;
-$pink: #f2dede;
-$dark-pink: #eed3d7;
-$red: #b94a48;
+$mint-green: #8EE4AF;
+$green: #5CDB95;
+$dark-green: #379683;
+$navy-blue: #05386B;
 
 ////////////////////////////////
 		//Alerts//
@@ -35,6 +35,14 @@ $red: #b94a48;
 
 .alert-error {
   background-color: $pink;
-  border-color: $dark-pink;
+  border-color: $navy-blue;
   color: $red;
+}
+
+body {
+background-color: $green !important;
+}
+
+a {
+  color: red !important;
 }

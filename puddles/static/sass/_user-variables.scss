@@ -6,3 +6,11 @@
 // Example of a variable override to change Landkit's background color
 // Remove the "//" to comment it in and see it in action!
 // $font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: red;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
