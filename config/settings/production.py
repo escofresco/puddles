@@ -1,6 +1,7 @@
 """isort:skip_file"""
 import logging
 
+import django_heroku
 import sentry_sdk
 
 from sentry_sdk.integrations.django import DjangoIntegration
@@ -231,5 +232,5 @@ sentry_sdk.init(
     integrations=[sentry_logging, DjangoIntegration(), CeleryIntegration()],
 )
 
-# Your stuff...
-# ------------------------------------------------------------------------------
+# Heroku
+django_heroku.settings(locals())
