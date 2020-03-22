@@ -35,12 +35,6 @@ function pathsConfig(appName) {
       `${vendorsRoot}/jquery/dist/jquery.slim.js`,
       `${vendorsRoot}/popper.js/dist/umd/popper.js`,
       `${vendorsRoot}/bootstrap/dist/js/bootstrap.js`,
-      // `${vendorsRoot}/bootstrap/dist/js/bootstrap.js`,
-      // `${vendorsRoot}/bootstrap/dist/js/bootstrap.js`,
-      // `${vendorsRoot}/bootstrap/dist/js/bootstrap.js`,
-      // `${vendorsRoot}/bootstrap/dist/js/bootstrap.js`,
-      // `${vendorsRoot}/bootstrap/dist/js/bootstrap.js`,
-
     ],
 
     app: this.app,
