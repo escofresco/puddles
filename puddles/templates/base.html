@@ -100,12 +100,14 @@
       <script src="{% static 'js/vendors.js' %}"></script>
       {% endcompress %}
 
+      {% compress js %}
+      {% include "partials/_scripts.html" %}
+      {% endcompress %}
 
       <!-- place project specific Javascript in this file -->
       {% compress js %}
       <script src="{% static 'js/project.js' %}"></script>
       {% endcompress %}
-
     {% endblock javascript %}
   </body>
 </html>
