@@ -307,3 +307,8 @@ REST_FRAMEWORK = {
 }
 
 BASE_DIR = ROOT_DIR
+
+# Codes for Puddle Score
+PUDDLE_CODES = [
+    "Score never initialized.",
+    "User has no score property."]
