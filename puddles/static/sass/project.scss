@@ -65,8 +65,14 @@ $navy-blue: #05386B;
   color: $red;
 }
 
-body {
+.buttonMargin {
+  margin-left: 2% !important;
 }
 
-a {
+.btn-primary {
+  background-color: $navy-blue;
+}
+
+.btn-primary:hover {
+  background-color: $mint-green;
 }

@@ -103,7 +103,10 @@
             </ul>
 
             <!-- Button -->
-            <a class="navbar-btn btn btn-sm btn-primary lift ml-auto" href="{% url 'account_signup' %}">
+            <a class="navbar-btn btn btn-sm btn-primary lift ml-auto" href="{% url 'account_login' %}">
+                {% trans "Log In" %}
+            </a>
+            <a class="buttonMargin navbar-btn btn btn-sm btn-primary lift" href="{% url 'account_signup' %}">
                 {% trans "Sign Up" %}
             </a>
         </div>
