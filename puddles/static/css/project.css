@@ -26070,6 +26070,9 @@ a.text-white:hover, a.text-white:focus {
   border-color: #05386B;
   color: #dc3545; }
 
+.buttonMargin {
+  margin-left: 2% !important; }
+
 .btn-primary {
   background-color: #05386B; }
 
