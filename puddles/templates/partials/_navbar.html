@@ -1,26 +1,112 @@
 {% load static i18n compress %}
 <nav class="navbar navbar-expand-lg {{ classList }}">
-  <div class="{% if type == 'boxed' %}container{% else %}container-fluid{% endif %}">
+    <div class="{% if type == 'boxed' %}container{% else %}container-fluid{% endif %}">
 
-    <!-- Brand -->
-    <a class="navbar-brand" href="{% url 'home' %}">
-      <img src="{% static 'images/logo/vector/default-monochrome.svg' %}" height=42 class="navbar-brand-img" alt="...">
-    </a>
+        <!-- Brand -->
+        <a class="navbar-brand" href="{% url 'home' %}">
+            <img src="{% static 'images/logo/vector/default-monochrome.svg' %}" height=42 class="navbar-brand-img" alt="...">
+        </a>
 
-    <!-- Toggler -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <!-- Collapse -->
-    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
 
-      <!-- Button -->
-      <a class="navbar-btn btn btn-sm btn-primary lift ml-auto" href="https://themes.getbootstrap.com/product/landkit/" target="_blank">
-        Buy now
-      </a>
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fe fe-x"></i>
+            </button>
+
+            <!-- Navigation -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarPages" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                        English
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-lg" aria-labelledby="navbarPages">
+                        <div class="row no-gutters">
+                            <div class="col-6">
+                                <div class="row no-gutters">
+                                    <div class="col-12 col-lg-6">
+
+                                        <!-- Heading -->
+                                        <h6 class="dropdown-header">
+                                            language
+                                        </h6>
+
+                                        <!-- List -->
+                                        <a class="dropdown-item" href="./careers.html">
+                                            Spanish
+                                        </a>
+                                        <a class="dropdown-item mb-5" href="./career-single.html">
+                                            Mandarin
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- / .row -->
+                </li>
+
+                {# ~~~~~~~~~~~~~~~~ Account ~~~~~~~~~~~~~~~~ #}
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarAccount" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
+                        {% trans "Account" %}
+                    </a>
+
+                    {# Settings #}
+                    <ul class="dropdown-menu" aria-labelledby="navbarAccount">
+                        {% if request.user.is_authenticated %}
+                        <li class="dropdown-item dropright">
+                            <a class="dropdown-link dropdown-toggle" data-toggle="dropdown" href="#">
+                                {% trans "Settings" %}
+                            </a>
+
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="{% url 'users:detail' request.user.username %}">
+                                    {% trans "Personal Details" %}
+                                </a>
+                                <a class="dropdown-item" href="{% url 'users:detail' request.user.username %}">
+                                    {% trans "Billing" %}
+                                </a>
+                            </div>
+                        </li>
+
+                        {# Sign out #}
+                        <li>
+                            <a class="dropdown-link dropdown-toggle" data-toggle="dropdown" href="{% url 'account_logout' %}">
+                                {% trans "Sign Out" %}
+                            </a>
+                        </li>
+
+                        {% else %}
+                        {# Sign up #}
+                        <li class="dropdown-item dropright">
+                            <a class="dropdown-link dropdown-toggle" data-toggle="dropdown" href="{% url 'account_signup' %}">
+                                {% trans "Create Account" %}
+                            </a>
+                        </li>
+                        <li class="dropdown-item dropright">
+                            <a class="dropdown-link dropdown-toggle" data-toggle="dropdown" href="{% url 'account_login' %}">
+                                {% trans "Sign In" %}
+                            </a>
+                        </li>
+                        {% endif %}
+                    </ul>
+                </li>
+                {# ~~~~~~~~~~~~~~~~ /Account ~~~~~~~~~~~~~~~~ #}
+
+            </ul>
+
+            <!-- Button -->
+            <a class="navbar-btn btn btn-sm btn-primary lift ml-auto" href="{% url 'account_signup' %}">
+                {% trans "Subscribe" %}
+            </a>
+        </div>
 
     </div>
-
-  </div>
 </nav>
