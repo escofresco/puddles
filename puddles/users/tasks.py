@@ -9,3 +9,9 @@ User = get_user_model()
 def get_users_count():
     """A pointless Celery task to demonstrate usage."""
     return User.objects.count()
+
+@celery_app.task()
+def invoke_knime_creditscore_predictor_endpoint():
+    """A celery task to invoke the Knime Credit Score Predictor from the AWS
+    Marketplace"""
+    raise NotImplemented
