@@ -65,8 +65,10 @@ $navy-blue: #05386B;
   color: $red;
 }
 
-body {
+.btn-primary {
+  background-color: $navy-blue;
 }
 
-a {
+.btn-primary:hover {
+  background-color: $mint-green;
 }
