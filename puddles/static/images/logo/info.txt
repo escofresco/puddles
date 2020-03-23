@@ -1,10 +1,10 @@
 
 Hope you enjoy your new logo, here are the people that
 made your beautiful logo happen :)
-font name: Decalotype-Bold
-font link: https://hanken.co/product/decalotype/
-font author: Hanken Design Co.
-font author site: https://hanken.co/
+font name: Aileron-Black
+font link: http://dotcolon.net/font/aileron/
+font author: dot colon
+font author site: http://dotcolon.net/
 
 
 icon designer: Alexander Skowalsky
@@ -12,7 +12,7 @@ icon designer link: /sandorsz
         
 
 fontColor: {"hex":"#05386b"}
-bgColor: {"hex":"#5cdb95"}
+bgColor: {"hex":"#edf5e1"}
 iconColor: {"hex":"#05386b"}
 
       
