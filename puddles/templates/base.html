@@ -29,9 +29,8 @@
     {# {% include "partials/_head.html" with title="Puddles" %} #}
   </head>
 
-  <body>
+  <body class="bg-light">
 
-    <div class="mb-1">
         {% comment %}
       <nav class="navbar navbar-expand-md navbar-light bg-light">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,28 +68,23 @@
           </ul>
         </div>
         {% endcomment %}
-        {% include 'partials/_navbar.html' with classList="navbar-light" type="boxed" %}
-      </nav>
+    {% include 'partials/_navbar.html' with classList="navbar-light" type="boxed" %}
 
-    </div>
 
-    <div class="container">
+  {% if messages %}
+      {% for message in messages %}
+          <div class="alert {% if message.tags %}alert-{{ message.tags }}{% endif %}">{{ message }}<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
+      {% endfor %}
+  {% endif %}
 
-      {% if messages %}
-          {% for message in messages %}
-              <div class="alert {% if message.tags %}alert-{{ message.tags }}{% endif %}">{{ message }}<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
-          {% endfor %}
-      {% endif %}
+  {% block content %}
+    <p>Use this document as a way to quick start any new project.</p>
+  {% endblock content %}
 
-      {% block content %}
-        <p>Use this document as a way to quick start any new project.</p>
-      {% endblock content %}
-
-    </div> <!-- /container -->
-
+  {% include "partials/_footer.html" with classList="bg-dark" %}
     {% block modal %}{% endblock modal %}
 
-    {% include 'partials/_footer.html' with classList="navbar-light" type="boxed" %}
+
 
 
     <!-- Le javascript
