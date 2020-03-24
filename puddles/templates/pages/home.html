@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load static i18n compress%}
 {% block content %}
 
     <!-- WELCOME
@@ -16,7 +17,7 @@
           <div class="col-12 col-md-6">
 
             <!-- Image -->
-            <img src="assets/img/illustrations/illustration-4.png" alt="..." class="img-fluid mw-130 float-right mb-6 mb-md-0" data-aos="fade-right">
+            <img src="{% static 'images/clip/clip-welcome.png' %}" alt="..." class="img-fluid mw-130 float-right mb-6 mb-md-0" data-aos="fade-right">
 
           </div>
           <div class="col-12 col-md-6">
@@ -30,8 +31,8 @@
             <!-- Text -->
             <p class="font-size-lg text-muted mb-0" data-aos="fade-left" data-aos-delay="200">
               Comprehensive consumer risk evaluation can significantly mitigate risk. Puddles is
-              the industry standard for whitelabel loan default prediction and customer risk
-              classification. Learn how you can save money today.
+              the industry standard for vanilla loan default prediction and long-term customer
+              behavior forecasting. Learn how you can save money today.
             </p>
 
           </div>
