@@ -8,7 +8,7 @@ from rest_framework.authtoken.views import obtain_auth_token
 
 urlpatterns = [
     # Visitor-facing content
-    path("", include("splash.urls")),
+    path("", include("puddles.splash.urls")),
     # Django Admin, use {% url 'admin:index' %}
     path(settings.ADMIN_URL, admin.site.urls),
     # User management
