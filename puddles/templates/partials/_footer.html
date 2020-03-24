@@ -1,4 +1,4 @@
-<footer class="py-8 py-md-11 @@classList">
+<footer class="py-8 py-md-11 {{ classList }}">
   <div class="container">
     <div class="row">
       <div class="col-12 col-md-4 col-lg-3">
@@ -155,29 +155,46 @@
 
         <!-- Heading -->
         <h6 class="font-weight-bold text-uppercase text-gray-700">
-          Legal
+          Resources
         </h6>
 
         <!-- List -->
         <ul class="list-unstyled text-muted mb-0">
-          <!-- <li class="mb-3">
+          <li class="mb-3">
             <a href="#!" class="text-reset">
-              Documentation
+              Contact
             </a>
           </li>
           <li class="mb-3">
-            <a href="#!" class="text-reset">
-              Changelog
+            <a href="{% url 'privacy-policy' %}" class="text-reset">
+              Privacy Policy
             </a>
           </li>
           <li>
             <a href="#!" class="text-reset">
-              Pagebuilder
+              Sitemap
             </a>
-          </li> -->
+          </li>
+          <li>
+            <a href="#!" class="text-reset">
+              Support
+            </a>
+          </li>
+          <li>
+            <a href="#!" class="text-reset">
+              Terms of Service
+            </a>
+          </li>
         </ul>
 
       </div>
     </div> <!-- / .row -->
   </div> <!-- / .container -->
 </footer>
+
+{# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SHAPE ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #}
+<div class="position-relative">
+  <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+    {% include "partials/shapes/curves/curve-1.svg" %}
+  </div>
+</div>
