@@ -8,7 +8,7 @@
 
       <!-- Shape -->
       <div class="shape shape-fluid-x shape-blur-2 svg-shim text-light">
-        {% include "shapes/blurs/blur-2.svg" %}
+        {% include "partials/shapes/blurs/blur-2.svg" %}
       </div>
 
       <!-- Content -->
@@ -30,7 +30,7 @@
 
             <!-- Text -->
             <p class="font-size-lg text-muted mb-0" data-aos="fade-left" data-aos-delay="200">
-              Comprehensive consumer risk evaluation can significantly mitigate risk. Puddles is
+              Comprehensive consumer risk assessment for busy companies. Puddles is
               the industry standard for vanilla loan default prediction and long-term customer
               behavior forecasting. Learn how you can save money today.
             </p>
@@ -50,7 +50,7 @@
 
             <!-- Icon -->
             <div class="icon text-primary mb-3">
-              @@include("assets/img/icons/duotone-icons/General/Settings-1.svg")
+              {% include 'partials/icons/duotone-icons/General/Settings-1.svg' %}
             </div>
 
             <!-- Heading -->
@@ -68,7 +68,7 @@
 
             <!-- Icon -->
             <div class="icon text-primary mb-3">
-              @@include("assets/img/icons/duotone-icons/Layout/Layout-arrange.svg")
+              {% include 'partials/icons/duotone-icons/Layout/Layout-arrange.svg' %}
             </div>
 
             <!-- Heading -->
@@ -86,7 +86,8 @@
 
             <!-- Icon -->
             <div class="icon text-primary mb-3">
-              @@include("assets/img/icons/duotone-icons/Code/Code.svg")
+
+              {% include 'partials/icons/duotone-icons/Code/Code.svg' %}
             </div>
 
             <!-- Heading -->
@@ -132,7 +133,7 @@
                 <div class="col-md-4 position-relative">
 
                   <!-- Image -->
-                  <img src="assets/img/illustrations/illustration-8.png" class="h-75 position-absolute right-0 mt-7 mr-n4" alt="...">
+                  <img src="{% static 'images/clip/clip-education.png' %}" class="h-75 position-absolute right-0 mt-7 mr-n4" alt="...">
 
                 </div>
                 <div class="col-md-8">
@@ -147,7 +148,7 @@
 
                     <!-- Text -->
                     <p class="text-muted mb-0">
-                      Landkit works well for a scrappy team of 3 or scales to the enterprise level needs of Forture 500 companies.
+                      Puddles is so intuitive that a baby could use it. Of course, we hope you aren't employing babies.
                     </p>
 
                   </div>
@@ -169,7 +170,7 @@
 
                     <!-- Heading -->
                     <h4 class="font-weight-bold">
-                      Emoji Responses
+                      Developer friendly.
                     </h4>
 
                     <!-- Text -->
@@ -183,7 +184,7 @@
                 <div class="col-md-4">
 
                   <!-- Image -->
-                  <img src="assets/img/illustrations/illustration-6.png" class="h-75 position-absolute left-0 mt-7" alt="...">
+                  <img src="{% static 'images/clip/clip-programming.png' %}" class="h-75 position-absolute left-0 mt-7" alt="...">
 
                 </div>
               </div> <!-- / .row -->
@@ -200,7 +201,7 @@
                 <div class="col-md-4 position-relative">
 
                   <!-- Image -->
-                  <img src="assets/img/illustrations/illustration-2.png" class="h-75 position-absolute right-0 mt-6" alt="...">
+                  <img src="{% static 'images/clip/clip-1.png' %}" class="h-75 position-absolute right-0 mt-6" alt="...">
 
                 </div>
                 <div class="col-md-8">
