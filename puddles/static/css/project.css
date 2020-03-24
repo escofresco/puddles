@@ -26059,22 +26059,3 @@ a.text-white:hover, a.text-white:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #F1F4F8; } }
-
-.alert-debug {
-  background-color: #FFFFFF;
-  border-color: #8EE4AF;
-  color: #000; }
-
-.alert-error {
-  background-color: #e83e8c;
-  border-color: #05386B;
-  color: #dc3545; }
-
-.buttonMargin {
-  margin-left: 2% !important; }
-
-.btn-primary {
-  background-color: #05386B; }
-
-.btn-primary:hover {
-  background-color: #8EE4AF; }
