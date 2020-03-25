@@ -102,6 +102,7 @@ from storages.backends.s3boto3 import S3Boto3Storage  # noqa E402
 class StaticRootS3Boto3Storage(S3Boto3Storage):
     location = "static"
     default_acl = "public-read"
+    bucket_name = "puddles-web-static"
 
 
 class MediaRootS3Boto3Storage(S3Boto3Storage):
@@ -163,8 +164,7 @@ ANYMAIL = {
 # https://django-compressor.readthedocs.io/en/latest/settings/#django.conf.settings.COMPRESS_ENABLED
 COMPRESS_ENABLED = env.bool("COMPRESS_ENABLED", default=True)
 # https://django-compressor.readthedocs.io/en/latest/settings/#django.conf.settings.COMPRESS_STORAGE
-#COMPRESS_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
-COMPRESS_STORAGE = "compressor.storage.GzipCompressorFileStorage"
+COMPRESS_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
 # https://django-compressor.readthedocs.io/en/latest/settings/#django.conf.settings.COMPRESS_URL
 COMPRESS_URL = STATIC_URL
 # https://django-compressor.readthedocs.io/en/latest/settings/#django.conf.settings.COMPRESS_FILTERS
