@@ -1,18 +1,18 @@
 
 Hope you enjoy your new logo, here are the people that
 made your beautiful logo happen :)
-font name: Aileron-Black
-font link: http://dotcolon.net/font/aileron/
-font author: dot colon
-font author site: http://dotcolon.net/
+font name: Montserrat-ExtraBold
+font link: https://fonts.google.com/specimen/Montserrat
+font author: Julieta Ulanovsky
+font author site: http://www.zkysky.com.ar/
 
 
-icon designer: Alexander Skowalsky
-icon designer link: /sandorsz
+icon designer: Adib Muhammad
+icon designer link: /keboman8
         
 
-fontColor: {"hex":"#05386b"}
-bgColor: {"hex":"#edf5e1"}
-iconColor: {"hex":"#05386b"}
+fontColor: {"hex":"#506690"}
+bgColor: {"hex":"#F1F4F8"}
+iconColor: {"hex":"#506690"}
 
       
