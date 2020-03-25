@@ -102,7 +102,6 @@ from storages.backends.s3boto3 import S3Boto3Storage  # noqa E402
 class StaticRootS3Boto3Storage(S3Boto3Storage):
     location = "static"
     default_acl = "public-read"
-    bucket_name = "puddles-web-static"
 
 
 class MediaRootS3Boto3Storage(S3Boto3Storage):
