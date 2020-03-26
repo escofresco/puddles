@@ -384,7 +384,7 @@
 
                     {# Icon #}
                     <div class="icon icon-sm text-primary">
-                      @@include("../assets/img/icons/duotone-icons/Files/File.svg")
+                      {% include 'partials/icons/duotone-icons/Files/File.svg' %}
                     </div>
 
                     {# Content #}
@@ -414,9 +414,13 @@
           </ul>
 
           {# Button #}
-          <a class="navbar-btn btn btn-sm btn-primary lift ml-auto" href="https://themes.getbootstrap.com/product/landkit/" target="_blank">
-            Buy now
-          </a>
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarLandings" href="{% url 'account_login' %}">
+                    Sign In <span class="fe fe-arrow-right"></span>
+                </a>
+              </li>
+          </ul>
 
         </div>
 
