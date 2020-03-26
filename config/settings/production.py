@@ -219,4 +219,4 @@ sentry_sdk.init(
 )
 
 # Heroku
-django_heroku.settings(locals())
+#django_heroku.settings(locals())
