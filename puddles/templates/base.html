@@ -96,9 +96,7 @@
       <script src="{% static 'js/vendors.js' %}"></script>
       {% endcompress %}
 
-      {% compress js %}
       {% include "partials/_scripts.html" %}
-      {% endcompress %}
 
       {# place project specific Javascript in this file #}
       {% compress js %}
