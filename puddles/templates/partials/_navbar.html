@@ -2,25 +2,25 @@
 <nav class="navbar navbar-expand-lg {{ classList }}">
     <div class="{% if type == 'boxed' %}container{% else %}container-fluid{% endif %}">
 
-        <!-- Brand -->
+        {# Brand #}
         <a class="navbar-brand" href="{% url 'home' %}">
             <img src="{% static 'images/logo/vector/default-monochrome.svg' %}" height=42 class="navbar-brand-img" alt="...">
         </a>
 
-        <!-- Toggler -->
+        {# Toggler #}
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!-- Collapse -->
+        {# Collapse #}
         <div class="collapse navbar-collapse" id="navbarCollapse">
 
-          <!-- Toggler -->
+          {# Toggler #}
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fe fe-x"></i>
           </button>
 
-          <!-- Navigation -->
+          {# Navigation #}
           <ul class="navbar-nav ml-auto">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" id="navbarLandings" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
@@ -31,17 +31,17 @@
                   <div class="col-12 col-lg-6">
                     <div class="dropdown-img-left" style="background-image: url({% static 'images/clip/clip-1.png' %});">
 
-                      <!-- Heading -->
+                      {# Heading #}
                       <h4 class="font-weight-bold text-white mb-0">
                         Want to see an overview?
                       </h4>
 
-                      <!-- Text -->
+                      {# Text #}
                       <p class="font-size-sm text-white">
                         See all the pages at once.
                       </p>
 
-                      <!-- Button -->
+                      {# Button #}
                       <a href="@@webRoot/overview.html" class="btn btn-sm btn-white shadow-dark fonFt-size-sm">
                         View all pages
                       </a>
@@ -53,12 +53,12 @@
                       <div class="row no-gutters">
                         <div class="col-6">
 
-                          <!-- Heading -->
+                          {# Heading #}
                           <h6 class="dropdown-header">
                             Services
                           </h6>
 
-                          <!-- List -->
+                          {# List #}
                           <a class="dropdown-item" href="@@webRoot/coworking.html">
                             Coworking
                           </a>
@@ -69,12 +69,12 @@
                             Job Listing
                           </a>
 
-                          <!-- Heading -->
+                          {# Heading #}
                           <h6 class="dropdown-header">
                             Apps
                           </h6>
 
-                          <!-- List -->
+                          {# List #}
                           <a class="dropdown-item" href="@@webRoot/desktop-app.html">
                             Desktop
                           </a>
@@ -85,12 +85,12 @@
                         </div>
                         <div class="col-6">
 
-                          <!-- Heading -->
+                          {# Heading #}
                           <h6 class="dropdown-header">
                             Web
                           </h6>
 
-                          <!-- List -->
+                          {# List #}
                           <a class="dropdown-item" href="@@webRoot/index.html">
                             Basic
                           </a>
@@ -108,10 +108,10 @@
                           </a>
 
                         </div>
-                      </div> <!-- / .row -->
+                      </div> {# / .row #}
                     </div>
                   </div>
-                </div> <!-- / .row -->
+                </div> {# / .row #}
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -124,12 +124,12 @@
                     <div class="row no-gutters">
                       <div class="col-12 col-lg-6">
 
-                        <!-- Heading -->
+                        {# Heading #}
                         <h6 class="dropdown-header">
                           Career
                         </h6>
 
-                        <!-- List -->
+                        {# List #}
                         <a class="dropdown-item" href="@@webRoot/careers.html">
                           Listing
                         </a>
@@ -137,12 +137,12 @@
                           Opening
                         </a>
 
-                        <!-- Heading -->
+                        {# Heading #}
                         <h6 class="dropdown-header">
                           Company
                         </h6>
 
-                        <!-- List -->
+                        {# List #}
                         <a class="dropdown-item" href="@@webRoot/about.html">
                           About
                         </a>
@@ -156,12 +156,12 @@
                       </div>
                       <div class="col-12 col-lg-6">
 
-                        <!-- Heading -->
+                        {# Heading #}
                         <h6 class="dropdown-header">
                           Help center
                         </h6>
 
-                        <!-- List -->
+                        {# List #}
                         <a class="dropdown-item" href="@@webRoot/help-center.html">
                           Overview
                         </a>
@@ -169,12 +169,12 @@
                           Article
                         </a>
 
-                        <!-- Heading -->
+                        {# Heading #}
                         <h6 class="dropdown-header">
                           Contact
                         </h6>
 
-                        <!-- List -->
+                        {# List #}
                         <a class="dropdown-item" href="@@webRoot/contact.html">
                           Basic
                         </a>
@@ -189,12 +189,12 @@
                     <div class="row no-gutters">
                       <div class="col-12 col-lg-6">
 
-                        <!-- Heading -->
+                        {# Heading #}
                         <h6 class="dropdown-header">
                           Blog
                         </h6>
 
-                        <!-- List -->
+                        {# List #}
                         <a class="dropdown-item" href="@@webRoot/blog.html">
                           Rich View
                         </a>
@@ -211,12 +211,12 @@
                       </div>
                       <div class="col-12 col-lg-6">
 
-                        <!-- Heading -->
+                        {# Heading #}
                         <h6 class="dropdown-header">
                           Portfolio <span class="h6 text-uppercase text-primary">(new)</span>
                         </h6>
 
-                        <!-- List -->
+                        {# List #}
                         <a class="dropdown-item" href="@@webRoot/portfolio-masonry.html">
                           Masonry
                         </a>
@@ -243,7 +243,7 @@
                     </div>
                   </div>
                 </div>
-              </div> <!-- / .row -->
+              </div> {# / .row #}
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" id="navbarAccount" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
@@ -336,20 +336,20 @@
                 <div class="list-group list-group-flush">
                   <a class="list-group-item" href="@@webRoot/docs/index.html">
 
-                    <!-- Icon -->
+                    {# Icon #}
                     <div class="icon icon-sm text-primary">
                       @@include("../assets/img/icons/duotone-icons/General/Clipboard.svg")
                     </div>
 
-                    <!-- Content -->
+                    {# Content #}
                     <div class="ml-4">
 
-                      <!-- Heading -->
+                      {# Heading #}
                       <h6 class="font-weight-bold text-uppercase text-primary mb-0">
                         Documentation
                       </h6>
 
-                      <!-- Text -->
+                      {# Text #}
                       <p class="font-size-sm text-gray-700 mb-0">
                         Customizing and building
                       </p>
@@ -359,20 +359,20 @@
                   </a>
                   <a class="list-group-item" href="@@webRoot/docs/alerts.html">
 
-                    <!-- Icon -->
+                    {# Icon #}
                     <div class="icon icon-sm text-primary">
                       @@include("../assets/img/icons/duotone-icons/Layout/Layout-4-blocks.svg")
                     </div>
 
-                    <!-- Content -->
+                    {# Content #}
                     <div class="ml-4">
 
-                      <!-- Heading -->
+                      {# Heading #}
                       <h6 class="font-weight-bold text-uppercase text-primary mb-0">
                         Components
                       </h6>
 
-                      <!-- Text -->
+                      {# Text #}
                       <p class="font-size-sm text-gray-700 mb-0">
                         Full list of components
                       </p>
@@ -382,27 +382,27 @@
                   </a>
                   <a class="list-group-item" href="@@webRoot/docs/changelog.html">
 
-                    <!-- Icon -->
+                    {# Icon #}
                     <div class="icon icon-sm text-primary">
                       @@include("../assets/img/icons/duotone-icons/Files/File.svg")
                     </div>
 
-                    <!-- Content -->
+                    {# Content #}
                     <div class="ml-4">
 
-                      <!-- Heading -->
+                      {# Heading #}
                       <h6 class="font-weight-bold text-uppercase text-primary mb-0">
                         Changelog
                       </h6>
 
-                      <!-- Text -->
+                      {# Text #}
                       <p class="font-size-sm text-gray-700 mb-0">
                         Keep track of changes
                       </p>
 
                     </div>
 
-                    <!-- Badge -->
+                    {# Badge #}
                     <span class="badge badge-pill badge-primary-soft ml-auto">
                       1.1.2
                     </span>
@@ -413,7 +413,7 @@
             </li>
           </ul>
 
-          <!-- Button -->
+          {# Button #}
           <a class="navbar-btn btn btn-sm btn-primary lift ml-auto" href="https://themes.getbootstrap.com/product/landkit/" target="_blank">
             Buy now
           </a>
