@@ -3,11 +3,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta name="description" content="Puddles dashboard." />
 
+{% compress css %}
 <!-- Libs CSS -->
 <link rel="stylesheet" href="{% static 'fonts/feather/feather.css' %}" />
 <link rel="stylesheet" href="{% static 'libs/flatpickr/dist/flatpickr.min.css' %}" />
 <link rel="stylesheet" href="{% static 'libs/quill/dist/quill.core.css' %}" />
 <link rel="stylesheet" href="{% static 'libs/highlightjs/styles/vs2015.css' %}" />
+{% endcompress css %}
 
 <!-- Map -->
 <link href="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css" rel="stylesheet" />
@@ -34,12 +36,8 @@
 <link rel="stylesheet" href="{% static 'css/project.css' %}" id="stylesheetLight" />
 {% endcompress %}
 
-<style>
-  body {
-    display: none;
-  }
 
-</style>
-}
+
 <!-- Title -->
-<title>{{ title }}</title>
+{# <title>{{ title }}</title> #}
+<title>{% block title %}{% block head_title %}Account{% endblock head_title %}{% endblock title %}</title>
