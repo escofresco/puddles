@@ -21,6 +21,7 @@
 <!-- Map -->
 <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
 
+{% compress %}
 <!-- Theme JS -->
 <!-- build:js @@webRoot/assets/js/theme.min.js -->
 <script src="{% static 'js/aos.js' %}"></script>
@@ -39,3 +40,4 @@
 <script src="{% static 'js/isotope.js' %}"></script>
 <script src="{% static 'js/dropdown.js' %}"></script>
 <!-- endbuild -->
+{% compress %}
