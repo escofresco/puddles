@@ -108,6 +108,17 @@ class MediaRootS3Boto3Storage(S3Boto3Storage):
     location = "media"
     file_overwrite = False
 
+## Suppress missing file error
+from whitenoise.storage import CompressedManifestStaticFilesStorage
+
+class ErrorSquashingStorage(CompressedManifestStaticFilesStorage):
+
+    def url(self, name, **kwargs):
+        try:
+            return super(ErrorSquashingStorage, self).url(name, **kwargs)
+        except ValueError:
+            return name
+
 
 # endregion
 DEFAULT_FILE_STORAGE = "config.settings.production.MediaRootS3Boto3Storage"
