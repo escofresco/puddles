@@ -1,6 +1,7 @@
 {% load static i18n compress %}
 
 <!-- Libs JS -->
+{% comment %}
 <script src="{% static 'libs/jquery/dist/jquery.min.js' %}"></script>
 <script src="{% static 'libs/bootstrap/dist/js/bootstrap.bundle.min.js' %}"></script>
 <script src="{% static 'libs/flickity/dist/flickity.pkgd.min.js' %}"></script>
@@ -16,7 +17,7 @@
 <script src="{% static 'libs/@fancyapps/fancybox/dist/jquery.fancybox.min.js' %}"></script>
 <script src="{% static 'libs/isotope-layout/dist/isotope.pkgd.min.js' %}"></script>
 <script src="{% static 'libs/imagesloaded/imagesloaded.pkgd.min.js' %}"></script>
-
+{% endcomment %}
 <!-- Map -->
 <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
 
@@ -37,4 +38,4 @@
 <script src="{% static 'js/typed.js' %}"></script>
 <script src="{% static 'js/isotope.js' %}"></script>
 <script src="{% static 'js/dropdown.js' %}"></script>
-<!-- endbuild --> 
+<!-- endbuild -->
