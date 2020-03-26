@@ -78,7 +78,7 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "puddles.users.apps.UsersConfig",
-    # Your stuff: custom apps go here
+    "puddles.splash",
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
@@ -218,7 +218,7 @@ X_FRAME_OPTIONS = "DENY"
 EMAIL_BACKEND = env(
     "DJANGO_EMAIL_BACKEND", default="django.core.mail.backends.smtp.EmailBackend"
 )
-# https://docs.djangoproject.com/en/dev/ref/settings/#email-timeout
+# https://docs.djangoproject.com/en/2.2/ref/settings/#email-timeout
 EMAIL_TIMEOUT = 5
 
 # ADMIN
@@ -305,5 +305,10 @@ REST_FRAMEWORK = {
     ),
     "DEFAULT_PERMISSION_CLASSES": ("rest_framework.permissions.IsAuthenticated",),
 }
-# Your stuff...
-# ------------------------------------------------------------------------------
+
+BASE_DIR = ROOT_DIR
+
+# Codes for Puddle Score
+PUDDLE_CODES = [
+    "Score never initialized.",
+    "User has no score property."]

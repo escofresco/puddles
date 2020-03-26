@@ -289,3 +289,5 @@ puddles/media/
 .env
 .envs/*
 !.envs/.local/
+
+dump.rdb

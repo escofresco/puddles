@@ -1,6 +1,9 @@
+"""isort:skip_file"""
 import logging
 
+import django_heroku
 import sentry_sdk
+
 from sentry_sdk.integrations.django import DjangoIntegration
 from sentry_sdk.integrations.logging import LoggingIntegration
 from sentry_sdk.integrations.celery import CeleryIntegration
@@ -91,7 +94,23 @@ COLLECTFAST_STRATEGY = "collectfast.strategies.boto3.Boto3Strategy"
 STATIC_URL = f"https://{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com/static/"
 # MEDIA
 # ------------------------------------------------------------------------------
-DEFAULT_FILE_STORAGE = "puddles.utils.storages.MediaRootS3Boto3Storage"
+# region http://stackoverflow.com/questions/10390244/
+# Full-fledge class: https://stackoverflow.com/a/18046120/104731
+from storages.backends.s3boto3 import S3Boto3Storage  # noqa E402
+
+
+class StaticRootS3Boto3Storage(S3Boto3Storage):
+    location = "static"
+    default_acl = "public-read"
+
+
+class MediaRootS3Boto3Storage(S3Boto3Storage):
+    location = "media"
+    file_overwrite = False
+
+
+# endregion
+DEFAULT_FILE_STORAGE = "config.settings.production.MediaRootS3Boto3Storage"
 MEDIA_URL = f"https://{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com/media/"
 
 # TEMPLATES
@@ -160,6 +179,8 @@ COMPRESS_FILTERS = {
 # https://github.com/antonagestam/collectfast#installation
 INSTALLED_APPS = ["collectfast"] + INSTALLED_APPS  # noqa F405
 
+COLLECTFAST_ENABLED = env.bool("COLLECTFAST_ENABLED", default=True)
+
 # LOGGING
 # ------------------------------------------------------------------------------
 # https://docs.djangoproject.com/en/dev/ref/settings/#logging
@@ -213,5 +234,5 @@ sentry_sdk.init(
     integrations=[sentry_logging, DjangoIntegration(), CeleryIntegration()],
 )
 
-# Your stuff...
-# ------------------------------------------------------------------------------
+# Heroku
+django_heroku.settings(locals())

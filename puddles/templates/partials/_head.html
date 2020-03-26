@@ -1,0 +1,35 @@
+{% load static i18n compress%}
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>{{ title }}</title>
+<meta name="description" content="Comprehensive consumer risk analysis in a splash.">
+<meta name="author" content="Jonasz Rice">
+
+{# HTML5 shim, for IE6-8 support of HTML5 elements #}
+<!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+<![endif]-->
+
+<!-- Map -->
+<link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+
+<link rel="icon" href="{% static 'images/favicons/favicon.ico' %}">
+{% block css %}
+{% compress css %}
+<!-- Libs CSS -->
+<link rel="stylesheet" href="{% static 'fonts/Feather/feather.css' %}">
+<link rel="stylesheet" href="{% static 'libs/flickity/dist/flickity.min.css' %}">
+<link rel="stylesheet" href="{% static 'libs/flickity-fade/flickity-fade.css' %}">
+<link rel="stylesheet" href="{% static 'libs/aos/dist/aos.css' %}">
+<link rel="stylesheet" href="{% static 'libs/jarallax/dist/jarallax.css' %}">
+<link rel="stylesheet" href="{% static 'libs/highlightjs/styles/vs2015.css' %}">
+<link rel="stylesheet" href="{% static 'libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css' %}">
+{% endcompress %}
+
+{% compress css %}
+{# This file stores project-specific CSS #}
+<link href="{% static 'css/project.css' %}" rel="stylesheet">
+{% endcompress %}
+{% endblock %}

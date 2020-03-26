@@ -1,3 +1,5 @@
+import django_heroku
+
 from .base import *  # noqa
 from .base import env
 
@@ -8,7 +10,7 @@ DEBUG = True
 # https://docs.djangoproject.com/en/dev/ref/settings/#secret-key
 SECRET_KEY = env(
     "DJANGO_SECRET_KEY",
-    default="suFDWyzDu8HZpz2OKozCIHtyhq4ekwvDtri7LAqsGxlumrx3sYKwY7bM3PbS7nYU",
+    default="pqAbdGlTqhXvB219bf5l79JUi9ZIKItetRqJel5PFsGh5xvvzS3Dk4DERlXIySDN",
 )
 # https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
 ALLOWED_HOSTS = ["localhost", "0.0.0.0", "127.0.0.1"]
@@ -55,5 +57,6 @@ INSTALLED_APPS += ["django_extensions"]  # noqa F405
 CELERY_TASK_ALWAYS_EAGER = True
 # http://docs.celeryproject.org/en/latest/userguide/configuration.html#task-eager-propagates
 CELERY_TASK_EAGER_PROPAGATES = True
-# Your stuff...
-# ------------------------------------------------------------------------------
+
+# Heroku
+django_heroku.settings(locals())

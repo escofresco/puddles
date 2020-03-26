@@ -1,7 +1,7 @@
 Puddles
 =======
 
-A service for improving your financial wellbeing.
+Meaningful consumer risk prediction in a splash.
 
 .. image:: https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg
      :target: https://github.com/pydanny/cookiecutter-django/
@@ -154,5 +154,3 @@ Bootstrap's javascript as well as its dependencies is concatenated into a single
 
 .. _in the bootstrap source: https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss
 .. _Bootstrap docs: https://getbootstrap.com/docs/4.1/getting-started/theming/
-
-
