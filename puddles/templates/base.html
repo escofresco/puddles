@@ -26,7 +26,9 @@
     {% endcompress %}
     {% endblock %}
     {% endcomment %}
-    {% include "partials/_head.html" with title=title %}
+    {% block css %}
+        {% include "partials/_head.html" with title=title %}
+    {% endblock css %}
   </head>
 
   <body class="bg-light">
@@ -91,11 +93,12 @@
     {# Placed at the end of the document so the pages load faster #}
     {% block javascript %}
 
+    {% comment %}
       {# Vendor dependencies bundled as one file#}
       {% compress js %}
       <script src="{% static 'js/vendors.js' %}"></script>
       {% endcompress %}
-
+    {% endcomment %}
       {% include "partials/_scripts.html" %}
 
       {# place project specific Javascript in this file #}
