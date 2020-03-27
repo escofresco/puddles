@@ -22,18 +22,24 @@
           <div class="col-12 col-md-6">
 
             {# Heading #}
-            <h1 class="display-1 font-weight-bold">
-              <div data-aos="fade-left">Work Smart.</div>
-              <div data-aos="fade-left" data-aos-delay="100">Not Hard.</div>
+            <h1 class="display-3 font-weight-bold">
+              <div data-aos="fade-left">Improve your</div>
+              <div data-aos="fade-left" data-aos-delay="100">financial wellbeing.</div>
             </h1>
 
             {# Text #}
-            <p class="font-size-lg text-muted mb-0" data-aos="fade-left" data-aos-delay="200">
-              Comprehensive consumer risk assessment for busy companies.
-              Puddles is the industry standard for vanilla loan default
-              prediction and long-term consumer forecasting. Learn how you can
-              save money today.
+            <p class="font-size-lg text-muted mb-6 mb-md-8" data-aos="fade-left" data-aos-delay="200">
+              Puddles is the best service for helping individuals making better financial decisions.
+              We construct personalized financial plans to help you achieve your goals.
             </p>
+
+            <!-- Buttons -->
+            <a href="{% url 'account_signup' %}" class="btn btn-sm btn-primary mr-1 lift">
+              Start Now
+            </a>
+            <a id="learnMoreBtn" class="btn btn-sm btn-primary-soft lift">
+              Learn More
+            </a>
 
           </div>
         </div> {# / .row #}
@@ -105,7 +111,7 @@
     </section>
 
     {# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ABOUT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #}
-    <section class="py-8 py-md-11 bg-gray-200">
+    <section class="py-8 py-md-11 bg-gray-200" id="aboutSection">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-md-10 col-lg-7 text-center">
@@ -350,5 +356,22 @@
       </div> {# / .container #}
     </section>
 
-
 {% endblock content %}
+
+{% block javascript %}
+    {{ block.super }}
+    <script>
+    $(() => {
+        $("#learnMoreBtn").on("click", () => {
+            /* Scroll to #aboutSection from #learnMoreBtn on click */
+            var target = $("#aboutSection");
+            if (target.length) {
+                $("html,body").animate({
+                    scrollTop: target.offset().top
+                }, 500);
+                return false;
+            }
+        });
+    });
+    </script>
+{% endblock javascript %}
