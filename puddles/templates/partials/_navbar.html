@@ -42,7 +42,7 @@
                       </p>
 
                       {# Button #}
-                      <a href="@@webRoot/overview.html" class="btn btn-sm btn-white shadow-dark fonFt-size-sm">
+                      <a href="#!" class="btn btn-sm btn-white shadow-dark fonFt-size-sm">
                         View all pages
                       </a>
 
@@ -59,13 +59,13 @@
                           </h6>
 
                           {# List #}
-                          <a class="dropdown-item" href="@@webRoot/coworking.html">
+                          <a class="dropdown-item" href="#!">
                             Coworking
                           </a>
-                          <a class="dropdown-item" href="@@webRoot/rental.html">
+                          <a class="dropdown-item" href="#!">
                             Rental
                           </a>
-                          <a class="dropdown-item mb-5" href="@@webRoot/job.html">
+                          <a class="dropdown-item mb-5" href="#!">
                             Job Listing
                           </a>
 
@@ -75,10 +75,10 @@
                           </h6>
 
                           {# List #}
-                          <a class="dropdown-item" href="@@webRoot/desktop-app.html">
+                          <a class="dropdown-item" href="#!">
                             Desktop
                           </a>
-                          <a class="dropdown-item" href="@@webRoot/mobile-app.html">
+                          <a class="dropdown-item" href="#!">
                             Mobile
                           </a>
 
@@ -91,19 +91,19 @@
                           </h6>
 
                           {# List #}
-                          <a class="dropdown-item" href="@@webRoot/index.html">
+                          <a class="dropdown-item" href="#!">
                             Basic
                           </a>
-                          <a class="dropdown-item" href="@@webRoot/enterprise.html">
+                          <a class="dropdown-item" href="#!">
                             Enterprise
                           </a>
-                          <a class="dropdown-item" href="@@webRoot/service.html">
+                          <a class="dropdown-item" href="#!">
                             Service
                           </a>
-                          <a class="dropdown-item" href="@@webRoot/cloud.html">
+                          <a class="dropdown-item" href="#!">
                             Cloud Hosting
                           </a>
-                          <a class="dropdown-item" href="@@webRoot/agency.html">
+                          <a class="dropdown-item" href="#!">
                             Agency <span class="h6 text-uppercase text-primary">(new)</span>
                           </a>
 
@@ -114,6 +114,7 @@
                 </div> {# / .row #}
               </div>
             </li>
+            {% comment %}
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" id="navbarPages" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
                 Pages
@@ -411,14 +412,21 @@
                 </div>
               </div>
             </li>
+            {% endcomment %}
           </ul>
 
           {# Button #}
           <ul class="navbar-nav ml-auto">
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="navbarLandings" href="{% url 'account_login' %}">
-                    Sign In <span class="fe fe-arrow-right"></span>
-                </a>
+                {% if request.user.is_authenticated %}
+                    <a class="nav-link dropdown-toggle" id="navbarLandings" href="{% url 'users:detail' request.user.username  %}">
+                        Dashboard <span style="vertical-align: middle;" class="fe fe-arrow-right"></span>
+                    </a>
+                {% else %}
+                    <a class="nav-link dropdown-toggle" id="navbarLandings" href="{% url 'account_login' %}">
+                        Sign In <span style="vertical-align: middle;" class="fe fe-arrow-right"></span>
+                    </a>
+                {% endif %}
               </li>
           </ul>
 
