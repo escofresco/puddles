@@ -5,7 +5,7 @@
 
 {% compress css %}
 <!-- Libs CSS -->
-<link rel="stylesheet" href="{% static 'fonts/feather/feather.css' %}" />
+<link rel="stylesheet" href="{% static 'fonts/Feather/feather.css' %}" />
 <link rel="stylesheet" href="{% static 'libs/flatpickr/dist/flatpickr.min.css' %}" />
 <link rel="stylesheet" href="{% static 'libs/quill/dist/quill.core.css' %}" />
 <link rel="stylesheet" href="{% static 'libs/highlightjs/styles/vs2015.css' %}" />
@@ -14,26 +14,14 @@
 <!-- Map -->
 <link href="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css" rel="stylesheet" />
 
-{% comment %}
-<!-- Theme CSS -->
-@@if (colorScheme=="light" && !demoMode) {
-<!-- build:css @@webRoot/assets/css/theme.min.css -->
-<link rel="stylesheet" href="@@webRoot/assets/css/theme.css" id="stylesheetLight" />
-<!-- endbuild -->
-} @@if (colorScheme=="dark" && !demoMode) {
-<!-- build:css @@webRoot/assets/css/theme-dark.min.css -->
-<link rel="stylesheet" href="@@webRoot/assets/css/theme-dark.css" id="stylesheetDark" />
-<!-- endbuild -->
-} @@if (demoMode) {
-<!-- build:css @@webRoot/assets/css/theme.min.css id="stylesheetLight" -->
-<link rel="stylesheet" href="@@webRoot/assets/css/theme.css" id="stylesheetLight" />
-<!-- endbuild -->
-<!-- build:css @@webRoot/assets/css/theme-dark.min.css id="stylesheetDark" -->
-<link rel="stylesheet" href="@@webRoot/assets/css/theme-dark.css" id="stylesheetDark" />
-<!-- endbuild -->
-{% endcomment %}
 {% compress css %}
-<link rel="stylesheet" href="{% static 'css/project.css' %}" id="stylesheetLight" />
+{% if theme_style == "dark" %}
+    <link rel="stylesheet" href="{% static 'css/dashkit-theme-dark.min.css' %}" id="stylesheetDark" />
+{% elif theme_style == "light" %}
+    <link rel="stylesheet" href="{% static 'css/dashkit-theme.min.css' %}" id="stylesheetLight" />
+{% else %}
+    <link rel="stylesheet" href="{% static 'css/theme.min.css' %}" id="stylesheetLight" />
+{% endif %}
 {% endcompress %}
 
 
