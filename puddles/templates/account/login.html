@@ -138,3 +138,34 @@ for a {{ site_name }} account and sign in below:{% endblocktrans %}</p>
   </div> {# / .row #}
 </div> {# / .container #}
 {% endblock inner %}
+
+{% block javascript %}
+    {{ block.super }}
+    <script>
+    console.log("asdkjhsjkhl");
+    $(document).ready(() => {
+
+        /* Insert a "reset password" link after the crispy-generate "Password*"
+        label */
+        const passwordLabel = $("#div_id_password > label");
+        passwordLabel.replaceWith(`
+            <div class="row">
+              <div class="col">
+
+                ${passwordLabel.html()}
+
+              </div>
+              <div class="col-auto">
+
+                {# Help text #}
+                <a href="{% url 'account_reset_password' %}" class="form-text small text-muted">
+                  Forgot password?
+                </a>
+
+              </div>
+            </div>
+            `);
+    });
+
+    </script>
+{% endblock javascript %}
