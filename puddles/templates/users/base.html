@@ -9,7 +9,8 @@
 
 
     {# ~~~~~~~~~~~~~~~~~~~~~~~~~~ NAVIGATION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #}
-    {% include "users/partials/_topnav.html" with theme_style=settings.THEME_STYLE category="dashboards" subcategory="" page="index.html" %}
+    {% include "users/partials/_sidebar.html" with theme_style=settings.THEME_STYLE category="dashboards" subcategory="" %}
+    {% include "users/partials/_topbar.html" with theme_style=settings.THEME_STYLE category="dashboards" subcategory="" %}
 
 
     {# ~~~~~~~~~~~~~~~~~~~~~~~~~~ MAIN CONTENT ~~~~~~~~~~~~~~~~~~~~~~~~~~ #}
