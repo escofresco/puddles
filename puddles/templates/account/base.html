@@ -12,11 +12,13 @@
     </div>
     {% endblock %}
     {% endcomment %}
-    <body class="d-flex align-items-center bg-auth border-top border-top-2 border-primary">
-        {% block content %}
-            {% block inner %}{% endblock inner %}
-        {% endblock content %}
+    {% block content %}
+        <body class="d-flex align-items-center bg-auth border-top border-top-2 border-primary">
+
+        {% block inner %}{% endblock inner %}
+    {% endblock content %}
 
         {% include 'account/partials/_scripts.html' %}
+
     </body>
 </html>
