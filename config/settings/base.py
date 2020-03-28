@@ -312,3 +312,5 @@ BASE_DIR = ROOT_DIR
 PUDDLE_CODES = [
     "Score never initialized.",
     "User has no score property."]
+
+THEME_STYLE = "dark"

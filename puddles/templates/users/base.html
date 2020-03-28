@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    {% include "account/partials/_head.html" with theme_style="dark" %}
+    {% include "account/partials/_head.html" with theme_style=settings.THEME_STYLE %}
 </head>
 <body>
-    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ MODALS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    {# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ MODALS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #}
     {# {% include "users/partials/_modals.html" %} #}
 
 
-    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ NAVIGATION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-    {% include "users/partials/_topnav.html" with navColor="navbar-dark" category="dashboards" subcategory="" page="index.html" %}
+    {# ~~~~~~~~~~~~~~~~~~~~~~~~~~ NAVIGATION ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ #}
+    {% include "users/partials/_topnav.html" with theme_style=settings.THEME_STYLE category="dashboards" subcategory="" page="index.html" %}
 
 
-    <!-- MAIN CONTENT
-    ================================================== -->
+    {# ~~~~~~~~~~~~~~~~~~~~~~~~~~ MAIN CONTENT ~~~~~~~~~~~~~~~~~~~~~~~~~~ #}
     <div class="main-content">
         {% block content %}
         {% endblock content %}
     </div>
+
 </body>
 </html>
