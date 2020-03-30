@@ -1,7 +1,7 @@
 Puddles
 =======
 
-Meaningful consumer risk prediction in a splash.
+Budgeting software that rewards you for achieving your financial goals.
 
 .. image:: https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg
      :target: https://github.com/pydanny/cookiecutter-django/
