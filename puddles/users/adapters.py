@@ -8,7 +8,6 @@ from django.http import HttpRequest
 
 class AccountAdapter(DefaultAccountAdapter):
     def is_open_for_signup(self, request: HttpRequest):
-        return False
         return getattr(settings, "ACCOUNT_ALLOW_REGISTRATION", True)
 
 
