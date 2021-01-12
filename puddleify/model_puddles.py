@@ -59,7 +59,7 @@ def data_cleanse(data_file):
     # remove missing values by creating a new dataset
     # df_no_missing = df.loc[(df['column'] != '?')
     #                       & (df['column2'] != '?2')]
-    # print(df.head())
+    print(df.head())
 
     # unique values
     # print(df['amount'].unique())
@@ -93,4 +93,4 @@ def one_hot_encoding():
 if __name__ == '__main__':
 
     cleansed = data_cleanse('testing.csv')
-    formatted = decision_tree_formatter(cleansed)
+    # formatted = decision_tree_formatter(cleansed)
