@@ -22,13 +22,13 @@ class Dataset:
     def rand_amount(self):
         ''' generates a random amount between $2 and $250 '''
         amount = float(decimal.Decimal(random.randrange(200, 25000))/100)
-        return amount
+        return float(amount)
     
     def rand_category(self):
         ''' generates random categories '''
         categories = ['Toy', 'Grocery', 'Furniture', 'Auto', 'Loan', 'Shops', 'Computer Electronics', 'Food', 'Home Goods', 'Candy', 'Laundry', 'Rent']
         category = random.choice(categories)
-        return category
+        return str(category)
     
     def rand_date(self):
         start = datetime.datetime.now()
@@ -39,32 +39,35 @@ class Dataset:
     def rand_name(self):
         names = ["Safeway", "Albertsons", "Kroger's", "Ralphs", "Best Buy", "Micro Center", "Pizza My Heart", "Veggie Grill", "Car Wash Classic", "7 Eleven"]
         name = random.choice(names)
-        return name
+        return str(name)
     
     def rand_description(self):
         description = ''.join(random.choice(string.ascii_letters) for _ in range(10))
-        return description
+        return str(description)
     
     def rand_address(self):
-        we_just_gonna_use_one = "555 Post Street"
-        return we_just_gonna_use_one
+        addy = random.choice(["555 Post Street", '''123 nowhere street''', '''229 asdfjk drive''', '''1234 woot street'''])
+        return str(addy)
     
     def rand_city(self):
-        just_one = "San Francisco"
-        return just_one
+        city = random.choice(["San Francisco", "Berkeley", "Los Angeles", "New York", "Philadelphia", "Boston"])
+        return str(city)
     
     def rand_lat(self):
-        return 15
+        lat = random.randint(1, 100)
+        return int(lat)
     
     def rand_lon(self):
-        return 10
+        lat = random.randint(1, 100)
+        return str(lat)
     
     def rand_state(self):
-        state = "CA"
-        return state
+        state = random.choice(["CA", "TX", "OR", "NV", "FL", "NY", "WY"])
+        return str(state)
     
     def rand_zip(self):
-        return 94103
+        zip = ''.join(random.randint(1, 10) for _ in range(5))
+        return int(zip)
     
     def fill_dataset(self):
     

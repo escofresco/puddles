@@ -75,19 +75,22 @@ def decision_tree_formatter(df):
     # print(df.head())
     X = df.iloc[:, :-1]
     # print('X HEAD ', X.head())
-    # print(X.dtypes)
+    print(X.dtypes)
 
     # the column we want to predict in Y
     y = df['puddle'].copy()
     # print('y HEAD ', y.head())
-    # print(y.dtypes)
+    print(y.dtypes)
 
     return ([X, y])
 
-# def one_hot_encoding():
+# sci kit learn doesn't natively support categorical data, thus...
+def one_hot_encoding():
+
+    pass
 
 
 if __name__ == '__main__':
 
     cleansed = data_cleanse('testing.csv')
-    format = decision_tree_formatter(cleansed)
+    formatted = decision_tree_formatter(cleansed)
