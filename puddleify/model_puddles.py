@@ -48,15 +48,31 @@ def json_to_csv():
 
 
 # cleaning data
-def data_in(data_file):
+def data_cleanse(data_file):
 
     # grab the csv file make it a dataframe
     df = pd.read_csv(data_file)
-    df.head()
+    print(df.head())
 
-    # remove the row or column
+    # remove a column
+    # df.drop('0', inplace=True, axis=1)
+
+    # remove missing values by creating a new dataset
+    # df_no_missing = df.loc[(df['column'] != '?')
+    #                       & (df['column2'] != '?2')]
+
+    # unique values
+    # print(df['amount'].unique())
 
     # guess? 
 
+def decision_tree_formatter(data_file):
+    ''' Once the data has been cleansed, format it here so it's prepared for the treee
+    This splits the data into train and split '''
+
+    X = 
+    y = 
+    
+
 if __name__ == '__main__':
-    data_in(data_file)
+    data_in('testing.csv')
