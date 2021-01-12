@@ -20,7 +20,7 @@ def json_to_csv():
     with open('data.json') as json_file: 
         data = json.load(json_file) 
     
-    employee_data = data['emp_details'] 
+    json_data = data['emp_details'] 
     
     # now we will open a file for writing 
     data_file = open('data_file.csv', 'w') 
@@ -32,15 +32,31 @@ def json_to_csv():
     # headers to the CSV file 
     count = 0
     
-    for emp in employee_data: 
+    for item in json_data: 
         if count == 0: 
     
             # Writing headers of CSV file 
-            header = emp.keys() 
+            header = item.keys() 
             csv_writer.writerow(header) 
             count += 1
     
         # Writing data of CSV file 
-        csv_writer.writerow(emp.values()) 
+        csv_writer.writerow(item.values()) 
     
     data_file.close() 
+
+
+
+# cleaning data
+def data_in(data_file):
+
+    # grab the csv file make it a dataframe
+    df = pd.read_csv(data_file)
+    df.head()
+
+    # remove the row or column
+
+    # guess? 
+
+if __name__ == '__main__':
+    data_in(data_file)
