@@ -1,0 +1,225 @@
+<<<<<<< HEAD:puddleify/data/testing.csv
+,0,1,2,3,4,5,6,7,8,9,10
+0,36.3,Grocery,2021-12-17 12:08:48.514012,Micro Center,dlrcSmmAJe,1234 woot street,San Francisco,17,19,94013,NV
+1,224.91,Rent,2021-11-09 17:29:36.564228,Veggie Grill,zfEZPUqLBA,555 Post Street,New York,86,86,94013,NY
+2,23.47,Rent,2021-11-30 14:32:42.038089,Safeway,TwoEWcWIJy,1234 woot street,Boston,69,5,94013,OR
+3,220.68,Toy,2021-04-09 06:21:14.970172,Best Buy,QYZnvwqSRx,1234 woot street,Philadelphia,35,22,94013,WY
+4,163.39,Auto,2021-04-07 03:38:39.377156,Ralphs,LLPKcjpUHR,1234 woot street,Los Angeles,8,41,94013,CA
+5,204.05,Candy,2021-08-12 19:15:29.684586,Safeway,bEWJpAHzEI,123 nowhere street,Boston,79,84,94013,CA
+6,168.55,Shops,2021-06-12 07:55:06.094906,Pizza My Heart,XqtgRLmwmT,123 nowhere street,New York,86,45,94013,TX
+7,136.21,Computer Electronics,2021-08-11 04:51:45.305245,Best Buy,UCabfgRnvz,123 nowhere street,New York,26,33,94013,OR
+8,113.06,Food,2021-10-09 13:25:33.765966,Kroger's,vrTulIQsEM,123 nowhere street,San Francisco,60,58,94013,FL
+9,140.66,Shops,2021-07-17 22:10:08.523084,Kroger's,FeUKePmHbW,229 asdfjk drive,Los Angeles,69,64,94013,FL
+10,49.59,Toy,2021-10-01 08:15:54.472146,7 Eleven,vXmFESAyow,555 Post Street,Berkeley,66,45,94013,OR
+11,95.28,Shops,2021-06-23 13:50:01.710752,Albertsons,LACWzdLUtO,1234 woot street,San Francisco,12,31,94013,NY
+12,114.85,Auto,2021-11-28 21:08:25.119457,Car Wash Classic,rVpesPIWxD,555 Post Street,New York,21,78,94013,CA
+13,242.93,Grocery,2021-12-28 05:16:34.767192,Safeway,lAxXTByIgO,1234 woot street,Boston,81,3,94013,WY
+14,103.99,Shops,2021-02-03 13:41:53.166533,Pizza My Heart,iByDjDNRPX,229 asdfjk drive,Berkeley,25,86,94013,WY
+15,241.83,Furniture,2021-03-22 08:15:42.121842,Veggie Grill,ghLYAabacD,229 asdfjk drive,Philadelphia,34,67,94013,CA
+16,232.28,Food,2021-03-28 12:11:25.154667,Albertsons,tXeuZrhFLj,555 Post Street,San Francisco,60,77,94013,TX
+17,225.0,Auto,2021-02-18 00:56:06.871341,7 Eleven,RbWlsArxkL,123 nowhere street,Philadelphia,51,46,94013,NV
+18,176.74,Loan,2021-01-14 22:49:10.358169,Ralphs,jYSVYjqOZL,555 Post Street,New York,4,35,94013,OR
+19,200.23,Furniture,2021-11-28 01:22:57.119416,Kroger's,rbBZyGOsza,123 nowhere street,Los Angeles,91,42,94013,CA
+20,31.02,Laundry,2021-02-18 03:23:36.918275,Best Buy,WXOxAMzpVS,1234 woot street,New York,41,56,94013,FL
+21,170.18,Furniture,2021-04-03 10:22:53.792240,Kroger's,yVnEpMEHVM,229 asdfjk drive,San Francisco,61,82,94013,OR
+22,52.48,Loan,2021-07-06 02:01:36.017709,Best Buy,UHkbctlKet,555 Post Street,Philadelphia,59,35,94013,WY
+23,9.59,Computer Electronics,2021-06-13 02:36:26.944580,Best Buy,jXvRHObvKD,123 nowhere street,Boston,82,58,94013,NY
+24,175.33,Grocery,2021-01-17 13:51:16.225575,Safeway,ziQPbosGVo,123 nowhere street,Los Angeles,64,52,94013,NY
+25,78.11,Loan,2021-10-20 10:25:27.789849,7 Eleven,mGHybsmMRg,1234 woot street,Philadelphia,77,58,94013,FL
+26,218.27,Auto,2021-05-29 22:36:23.784429,Pizza My Heart,PpiQDcbnLe,1234 woot street,Boston,96,88,94013,TX
+27,224.42,Shops,2021-04-20 21:36:53.212707,Safeway,ACDwnInGao,1234 woot street,Boston,62,83,94013,FL
+28,99.72,Loan,2021-05-21 08:07:02.007848,Car Wash Classic,rNOgPKiPPN,123 nowhere street,Boston,77,52,94013,CA
+29,201.38,Candy,2021-08-29 21:06:03.786141,Safeway,UzdVNhvZAU,555 Post Street,New York,93,56,94013,FL
+30,247.29,Rent,2021-10-24 22:58:13.666355,Car Wash Classic,UoIVuSCVJD,123 nowhere street,Berkeley,16,49,94013,WY
+31,61.99,Loan,2021-08-12 14:16:22.532283,7 Eleven,hvbamathWL,1234 woot street,Boston,18,6,94013,NV
+32,175.02,Auto,2021-02-02 10:56:37.362722,Kroger's,ZvCMSAQdzM,229 asdfjk drive,Philadelphia,77,12,94013,TX
+33,217.82,Laundry,2021-12-22 19:21:02.285902,Pizza My Heart,AcwtaUkuvJ,229 asdfjk drive,San Francisco,93,6,94013,WY
+34,42.55,Furniture,2021-07-02 14:26:31.154618,Pizza My Heart,BClRsSdSht,555 Post Street,Los Angeles,33,95,94013,WY
+35,89.94,Rent,2021-12-28 07:51:55.477005,Micro Center,BinbLCLuig,555 Post Street,San Francisco,16,99,94013,WY
+36,219.44,Toy,2021-11-04 13:34:53.746425,Best Buy,yhHftWbDuy,555 Post Street,Los Angeles,97,46,94013,CA
+37,101.14,Loan,2021-10-19 00:10:28.630513,Car Wash Classic,gbvPNEUUbR,1234 woot street,San Francisco,21,47,94013,WY
+38,191.46,Furniture,2021-06-06 16:04:15.807142,Pizza My Heart,WgSQpriqVt,1234 woot street,Philadelphia,25,15,94013,TX
+39,93.52,Computer Electronics,2021-12-08 22:27:06.140638,Micro Center,tfAGzOUpno,229 asdfjk drive,Boston,28,44,94013,WY
+40,173.84,Food,2021-11-01 01:35:15.989095,Safeway,bDSjuwKQWg,123 nowhere street,Philadelphia,81,77,94013,WY
+41,120.73,Rent,2021-05-02 17:02:39.531041,Best Buy,ldiMCnoyUG,123 nowhere street,Berkeley,47,50,94013,WY
+42,5.88,Computer Electronics,2021-03-25 22:51:44.919016,Safeway,WrHDaQXghU,229 asdfjk drive,New York,11,1,94013,CA
+43,166.37,Shops,2021-10-04 19:28:32.072606,Ralphs,ktyhloQEVR,123 nowhere street,Los Angeles,37,38,94013,NV
+44,142.2,Home Goods,2022-01-01 19:10:59.202480,Best Buy,jTgDDRbHaf,555 Post Street,Boston,88,88,94013,NV
+45,133.92,Food,2022-01-08 01:45:23.750064,Car Wash Classic,NqcgDZcvBE,229 asdfjk drive,Los Angeles,61,95,94013,OR
+46,21.94,Home Goods,2021-10-25 15:12:20.028673,Best Buy,kpRKdcUVYm,123 nowhere street,Berkeley,11,97,94013,WY
+47,151.79,Home Goods,2021-05-02 07:12:48.751610,Veggie Grill,AZgsjZFmVV,123 nowhere street,Boston,19,86,94013,FL
+48,51.2,Loan,2021-04-16 08:53:38.225727,Kroger's,eqWQyUfopC,229 asdfjk drive,Berkeley,84,17,94013,FL
+49,197.64,Rent,2021-09-14 18:40:03.018858,Safeway,XakoiTLOBT,123 nowhere street,Berkeley,80,21,94013,NY
+50,221.5,Candy,2021-07-07 02:03:25.508298,Best Buy,UYjPUmYphC,123 nowhere street,Berkeley,75,14,94013,NV
+51,198.65,Furniture,2021-07-06 05:04:04.356018,Ralphs,lgLZxtrpou,123 nowhere street,New York,67,31,94013,OR
+52,85.12,Home Goods,2021-07-23 15:40:56.859553,7 Eleven,cCjouCSpMb,555 Post Street,Boston,12,24,94013,OR
+53,143.79,Grocery,2021-02-04 23:02:31.315192,Ralphs,XTZeehQJSD,1234 woot street,San Francisco,86,59,94013,NV
+54,170.1,Loan,2021-10-11 11:18:23.337711,Micro Center,XmlWVpMgFs,229 asdfjk drive,Boston,28,84,94013,NY
+55,190.1,Computer Electronics,2021-09-30 03:58:38.910440,Micro Center,GCRYXYjslt,1234 woot street,San Francisco,88,85,94013,TX
+56,87.68,Home Goods,2021-12-22 19:34:46.969998,Pizza My Heart,UlneSFQgKk,229 asdfjk drive,Boston,54,11,94013,FL
+57,47.84,Food,2021-10-05 11:58:02.822138,Veggie Grill,dXLvByXWnM,1234 woot street,New York,84,89,94013,TX
+58,84.15,Furniture,2021-07-26 21:38:36.328364,Best Buy,yvZoMOqHpH,555 Post Street,Boston,87,24,94013,WY
+59,207.12,Computer Electronics,2021-02-22 20:53:18.952113,Ralphs,vLfWIHDikk,123 nowhere street,New York,54,60,94013,CA
+60,131.74,Shops,2021-09-02 12:19:31.291176,Car Wash Classic,ktQlYUiPUk,555 Post Street,San Francisco,26,93,94013,NY
+61,216.43,Toy,2021-02-15 19:22:05.267763,Pizza My Heart,tZmpWMrvUk,555 Post Street,Berkeley,56,10,94013,WY
+62,99.52,Laundry,2021-11-06 17:29:37.202218,Ralphs,fmrAKtIYwj,1234 woot street,New York,46,69,94013,WY
+63,90.4,Shops,2021-10-10 23:47:47.653531,Best Buy,urJOhUafBs,123 nowhere street,San Francisco,54,93,94013,FL
+64,43.41,Laundry,2021-09-02 13:50:50.785292,Safeway,bIPIvZyEuD,555 Post Street,Boston,93,5,94013,FL
+65,69.37,Loan,2021-05-31 21:14:55.046539,Kroger's,gwEcTVCFSd,555 Post Street,Berkeley,79,11,94013,TX
+66,62.06,Food,2022-01-03 13:53:57.041057,Micro Center,cVCCbmEcCB,123 nowhere street,New York,71,67,94013,OR
+67,243.67,Food,2021-07-01 14:38:30.131975,Best Buy,rWteKtlqOi,123 nowhere street,San Francisco,94,32,94013,FL
+68,22.97,Auto,2021-12-23 18:12:44.476770,Micro Center,aGDuIsJSUN,555 Post Street,San Francisco,100,4,94013,NY
+69,54.13,Loan,2021-05-24 02:32:38.337637,Pizza My Heart,iqcUZIjYQP,555 Post Street,Boston,81,99,94013,OR
+70,203.18,Computer Electronics,2021-11-27 03:56:25.002673,7 Eleven,GSWwPeXKBq,555 Post Street,Boston,11,92,94013,NV
+71,82.08,Food,2021-05-12 15:50:51.233572,Ralphs,QWxUlMapxe,123 nowhere street,Berkeley,94,31,94013,OR
+72,183.77,Auto,2021-05-26 15:41:34.625225,Veggie Grill,hpVeURXlMG,555 Post Street,New York,44,36,94013,CA
+73,212.3,Toy,2021-03-03 21:34:09.895072,Pizza My Heart,SfIfeCwkDE,229 asdfjk drive,New York,62,51,94013,TX
+74,240.47,Toy,2021-04-02 00:24:54.136020,Safeway,WtmXycrKrb,1234 woot street,New York,3,84,94013,FL
+75,120.35,Laundry,2021-08-13 14:01:47.986946,Micro Center,EBNIWSocbi,123 nowhere street,Los Angeles,45,69,94013,NY
+76,65.47,Grocery,2021-03-31 01:36:14.329559,Veggie Grill,OzbZtwmIxD,229 asdfjk drive,San Francisco,64,97,94013,OR
+77,138.89,Rent,2022-01-06 01:06:30.565698,Kroger's,VKJhoSnFyF,229 asdfjk drive,New York,91,68,94013,NV
+78,227.12,Laundry,2021-12-08 06:50:46.276038,Kroger's,PUuCYcguvh,555 Post Street,Los Angeles,93,78,94013,CA
+79,114.73,Loan,2021-07-10 15:01:27.724830,7 Eleven,Tohakgygtz,123 nowhere street,New York,49,61,94013,TX
+80,70.64,Food,2021-10-03 23:56:37.584722,Kroger's,hjcFSMuUBP,123 nowhere street,Berkeley,45,12,94013,CA
+81,161.84,Furniture,2021-03-27 08:40:28.268678,Car Wash Classic,pbvgoEnyTQ,229 asdfjk drive,San Francisco,84,45,94013,WY
+82,40.81,Laundry,2021-05-05 08:48:17.043305,Best Buy,fFbPILNvxg,1234 woot street,San Francisco,65,24,94013,CA
+83,80.79,Shops,2021-06-08 09:58:01.189561,Veggie Grill,GAwpiqwqub,555 Post Street,Boston,8,97,94013,NV
+84,227.01,Loan,2021-11-08 22:41:56.327244,Micro Center,etcNzYMcTs,229 asdfjk drive,Berkeley,74,43,94013,NY
+85,122.3,Computer Electronics,2021-12-14 01:19:16.375047,Albertsons,YjOIvONusG,229 asdfjk drive,Philadelphia,86,64,94013,TX
+86,222.47,Loan,2021-01-30 22:17:41.509318,Pizza My Heart,BuDNIAQBQH,1234 woot street,Philadelphia,61,37,94013,OR
+87,87.51,Rent,2022-01-09 04:37:44.501399,Micro Center,hefgfbPUvW,1234 woot street,Philadelphia,30,14,94013,NV
+88,171.29,Shops,2021-11-19 23:25:02.354314,Safeway,AKmLSgOiwP,229 asdfjk drive,Los Angeles,50,32,94013,WY
+89,178.03,Rent,2021-10-01 15:31:41.770322,7 Eleven,VZrSsYWsmM,123 nowhere street,Los Angeles,79,86,94013,CA
+90,79.47,Grocery,2021-04-02 07:25:33.281346,Safeway,chdmApyjPh,1234 woot street,Philadelphia,31,88,94013,WY
+91,125.34,Furniture,2021-08-02 23:55:20.643880,Ralphs,AgFVjwSijF,555 Post Street,Berkeley,82,67,94013,CA
+92,129.65,Shops,2021-10-22 07:00:00.365411,Kroger's,iUhHmLvXqd,555 Post Street,San Francisco,8,39,94013,WY
+93,114.94,Computer Electronics,2021-12-24 13:56:07.806825,7 Eleven,KRRaNzPXka,1234 woot street,Philadelphia,19,72,94013,WY
+94,86.98,Home Goods,2021-10-28 02:39:40.488686,Veggie Grill,STgCbaEaqO,555 Post Street,Boston,77,12,94013,TX
+95,61.15,Furniture,2021-04-26 20:10:03.855876,Micro Center,TuQpNlVfIa,229 asdfjk drive,San Francisco,81,73,94013,NY
+96,11.63,Toy,2021-02-25 04:51:31.845966,Albertsons,iZVyPBTkUm,1234 woot street,Boston,12,37,94013,TX
+97,57.5,Shops,2021-09-22 23:47:08.880936,Car Wash Classic,UtJglAlnPJ,555 Post Street,Philadelphia,97,41,94013,NV
+98,39.41,Loan,2021-12-23 15:11:27.650874,Micro Center,THCYibWTGE,555 Post Street,San Francisco,82,82,94013,CA
+99,125.92,Laundry,2021-07-11 11:56:25.165054,Car Wash Classic,NIpQNwpSyv,229 asdfjk drive,New York,42,19,94013,WY
+100,105.9,Furniture,2021-04-19 23:17:37.553739,Veggie Grill,RbacmiYOac,555 Post Street,Berkeley,51,33,94013,CA
+101,162.44,Computer Electronics,2021-10-20 13:24:27.819728,Micro Center,wsxtEJTfkm,123 nowhere street,New York,54,54,94013,CA
+102,19.62,Candy,2021-03-09 04:28:29.042146,7 Eleven,yHlQaoZMXr,229 asdfjk drive,Berkeley,78,68,94013,OR
+103,62.43,Grocery,2021-07-25 16:20:29.460864,Albertsons,dWbJlvEZBT,229 asdfjk drive,Philadelphia,37,14,94013,WY
+104,48.82,Loan,2021-12-05 19:55:12.491754,Kroger's,mWleBXIZHo,123 nowhere street,New York,88,25,94013,NV
+105,169.87,Furniture,2021-05-23 04:13:57.015946,7 Eleven,SoMfUplDiX,555 Post Street,Boston,13,81,94013,NY
+106,170.62,Shops,2021-02-13 02:06:15.288433,Micro Center,mQvnhAfBHu,229 asdfjk drive,Los Angeles,47,67,94013,FL
+107,30.42,Shops,2021-03-22 14:05:38.369098,Safeway,epbWgHeEym,1234 woot street,San Francisco,58,55,94013,FL
+108,181.4,Toy,2021-05-25 09:22:21.201585,7 Eleven,jCsnbqYdyX,555 Post Street,Philadelphia,70,63,94013,NV
+109,217.88,Toy,2021-05-20 13:35:39.426074,Veggie Grill,muJMXBRPJq,123 nowhere street,Philadelphia,73,5,94013,OR
+=======
+0,amount,category,date,name,orginal_description,address,city,lat,lon,state,zip,puddle
+1,102.0,Home Goods,2021-04-04 19:29:31.764435,Kroger's,nutJmyfIyR,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+2,208.2,Home Goods,2021-03-09 00:40:35.157872,Albertsons,nrCDsWCkER,555 Post Street,San Francisco,15,10,94103,CA,Puddle 1
+3,52.41,Furniture,2021-04-02 20:26:26.220145,Pizza My Heart,FKdZtCaHTt,555 Post Street,San Francisco,15,10,94103,CA,Puddle 1
+4,145.77,Loan,2021-08-06 18:45:24.002550,Ralphs,DVTtufgWUt,555 Post Street,San Francisco,15,10,94103,CA,Puddle 1
+5,109.56,Rent,2021-06-20 04:10:42.919073,Ralphs,CjMXKCnrkU,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+6,233.13,Rent,2021-02-17 19:59:12.493856,Veggie Grill,YWSGveTyrj,555 Post Street,San Francisco,15,10,94103,CA,Puddle 2
+7,205.94,Rent,2021-10-31 16:53:52.817454,Best Buy,rFHtrmZWmW,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+8,39.62,Toy,2021-11-06 02:54:00.795801,Kroger's,BynHFJOHuU,555 Post Street,San Francisco,15,10,94103,CA,Puddle 2
+9,57.58,Loan,2021-03-20 13:32:02.651627,Kroger's,BSaDuoESDx,555 Post Street,San Francisco,15,10,94103,CA,Puddle 2
+10,191.27,Furniture,2021-08-13 14:46:49.742950,Kroger's,nqFUIIjSuc,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+11,159.91,Toy,2021-06-09 21:55:11.760276,Best Buy,fTSNVTivEp,555 Post Street,San Francisco,15,10,94103,CA,Puddle 2
+12,248.0,Shops,2021-03-06 01:56:02.860645,Pizza My Heart,xlbCSQhilF,555 Post Street,San Francisco,15,10,94103,CA,Puddle 1
+13,183.0,Toy,2021-05-06 08:18:51.681553,Pizza My Heart,mBIvNkIcxW,555 Post Street,San Francisco,15,10,94103,CA,Puddle 1
+14,18.98,Loan,2021-07-14 18:56:59.520606,7 Eleven,QrvMzaeMPO,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+15,79.34,Home Goods,2021-03-03 17:43:32.920866,Veggie Grill,cOqaXUJGtw,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+16,68.09,Grocery,2021-08-26 11:56:49.538220,Pizza My Heart,winrHasicC,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+17,121.65,Food,2021-04-10 16:06:39.413159,Best Buy,TxsVDqkbbM,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+18,93.75,Rent,2021-10-21 03:36:26.408366,Car Wash Classic,aahbwUnfOz,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+19,120.97,Toy,2021-11-18 18:38:47.890369,Pizza My Heart,uDILMMvXjs,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+20,116.64,Laundry,2021-11-26 01:23:05.056702,Ralphs,GfCppaYgmL,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+21,157.17,Rent,2021-06-16 14:17:33.708406,Ralphs,xpQVRxzZUh,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+22,168.5,Grocery,2021-12-03 11:14:06.278506,Pizza My Heart,WLGmcYtCDc,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+23,138.65,Computer Electronics,2021-02-08 05:35:55.389890,Veggie Grill,iOGzUWPJXb,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+24,94.48,Loan,2021-08-25 13:51:27.093667,Pizza My Heart,faIJzEjggz,555 Post Street,San Francisco,15,10,94103,CA,Puddle 1
+25,36.19,Loan,2021-07-23 05:06:39.781639,Best Buy,DoksfhejCZ,555 Post Street,San Francisco,15,10,94103,CA,Puddle 2
+26,242.15,Grocery,2021-04-10 20:22:21.373063,Ralphs,NzrjiLJymk,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+27,38.0,Grocery,2021-01-13 20:01:38.319122,Albertsons,LaPdyohCrF,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+28,101.44,Furniture,2021-03-27 15:35:46.085671,Pizza My Heart,MSwEISEiBj,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+29,69.46,Grocery,2021-11-04 22:36:42.172637,Best Buy,OUmPUaQsOs,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+30,217.19,Food,2021-02-08 04:01:42.069448,7 Eleven,CcHszQDRvh,555 Post Street,San Francisco,15,10,94103,CA,Puddle 1
+31,217.47,Furniture,2021-02-16 19:22:36.827081,Albertsons,bIXdnDHDiC,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+32,205.77,Toy,2021-07-16 18:18:48.202119,Micro Center,rrRLFCEsTO,555 Post Street,San Francisco,15,10,94103,CA,Puddle 1
+33,130.72,Toy,2021-05-26 19:02:34.011025,Kroger's,DBzQUzZxFc,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+34,240.68,Auto,2021-05-17 15:51:05.853027,Micro Center,XANuJNMavJ,555 Post Street,San Francisco,15,10,94103,CA,Puddle 2
+35,92.65,Computer Electronics,2021-02-18 15:07:03.490353,Pizza My Heart,FZddxMrMnR,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+36,124.65,Auto,2021-08-08 06:29:29.335228,Pizza My Heart,TvChyjJJDt,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+37,100.08,Computer Electronics,2021-06-24 07:26:24.107548,Micro Center,VRKnmETIca,555 Post Street,San Francisco,15,10,94103,CA,Puddle 2
+38,138.21,Rent,2021-02-22 04:29:41.399530,Best Buy,nSkitlBOwP,555 Post Street,San Francisco,15,10,94103,CA,Puddle 1
+39,10.76,Computer Electronics,2021-10-31 10:10:41.031011,Veggie Grill,sKsqWtbXmH,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+40,23.88,Computer Electronics,2021-08-27 03:59:33.345621,7 Eleven,jFLMQwaaqs,555 Post Street,San Francisco,15,10,94103,CA,Puddle 1
+41,235.76,Candy,2021-12-19 05:52:50.871495,Safeway,CafLVqCiBh,555 Post Street,San Francisco,15,10,94103,CA,Puddle 1
+42,121.2,Candy,2021-01-19 10:26:17.314024,Car Wash Classic,IBHzMcbvvx,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+43,131.71,Grocery,2021-04-06 20:51:20.388121,Albertsons,XlOLykiJvu,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+44,75.27,Computer Electronics,2021-06-12 04:20:00.697282,Micro Center,USOpSSOKLG,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+45,60.08,Grocery,2021-05-24 10:28:29.986887,Veggie Grill,zJBjMlUEPf,555 Post Street,San Francisco,15,10,94103,CA,Puddle 2
+46,206.01,Loan,2021-07-29 14:38:35.848444,Best Buy,lgiEedNqwu,555 Post Street,San Francisco,15,10,94103,CA,Puddle 2
+47,13.09,Shops,2021-12-13 02:39:41.837324,Albertsons,HqhpGNWmHE,555 Post Street,San Francisco,15,10,94103,CA,Puddle 2
+48,176.87,Computer Electronics,2021-06-21 05:00:41.078997,Pizza My Heart,wLeEyEyUgD,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+49,72.83,Laundry,2021-03-28 03:08:20.208971,Car Wash Classic,sBGVsbXtpw,555 Post Street,San Francisco,15,10,94103,CA,Puddle 2
+50,247.21,Loan,2021-06-03 08:04:17.815916,Micro Center,azijBbSeAB,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+51,147.3,Home Goods,2021-04-23 11:34:47.823505,Safeway,hezjxGQvCp,555 Post Street,San Francisco,15,10,94103,CA,Puddle 1
+52,244.14,Computer Electronics,2021-10-08 12:19:56.936388,Best Buy,nGroqTkTHS,555 Post Street,San Francisco,15,10,94103,CA,Puddle 2
+53,125.13,Grocery,2021-12-23 02:06:42.067317,Car Wash Classic,eRHVuZOrWg,555 Post Street,San Francisco,15,10,94103,CA,Puddle 2
+54,106.56,Computer Electronics,2021-02-04 17:55:28.542054,Car Wash Classic,RudysNeYHt,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+55,3.86,Grocery,2021-07-28 10:55:07.848774,Veggie Grill,asOUoFBEif,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+56,40.38,Rent,2021-03-27 04:53:45.379650,Kroger's,OgyIZcfZrw,555 Post Street,San Francisco,15,10,94103,CA,Puddle 1
+57,179.84,Shops,2021-10-13 07:21:10.131066,Kroger's,vQFTEuMbHB,555 Post Street,San Francisco,15,10,94103,CA,Puddle 1
+58,69.3,Food,2021-05-26 23:02:34.128521,Kroger's,KbdtSrXKoh,555 Post Street,San Francisco,15,10,94103,CA,Puddle 1
+59,172.21,Loan,2021-11-21 18:28:28.813163,Best Buy,sKKFeaREav,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+60,89.77,Grocery,2021-03-02 13:24:26.773873,Pizza My Heart,gykBibyHAh,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+61,210.96,Furniture,2021-05-01 14:09:12.974194,Veggie Grill,WaTARAvPzo,555 Post Street,San Francisco,15,10,94103,CA,Puddle 1
+62,196.59,Shops,2021-03-14 02:48:34.930680,Safeway,PyqgBJsEXH,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+63,34.89,Auto,2021-05-05 11:58:13.061695,Pizza My Heart,GRFEUJmooP,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+64,100.49,Loan,2021-04-27 05:10:48.054429,Ralphs,GmCiuyuwdS,555 Post Street,San Francisco,15,10,94103,CA,Puddle 1
+65,35.75,Auto,2021-05-03 09:49:50.477149,Veggie Grill,OwfANXPuxM,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+66,155.88,Laundry,2021-07-30 19:07:16.960446,Best Buy,dRSFrbxCxq,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+67,28.23,Rent,2021-04-17 12:11:07.768079,Micro Center,DrYBViDGIq,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+68,56.66,Furniture,2021-03-12 12:49:12.258149,Car Wash Classic,XqkJAuPfVH,555 Post Street,San Francisco,15,10,94103,CA,Puddle 2
+69,32.51,Toy,2021-03-21 11:14:45.286562,Micro Center,yRjRLVzTmk,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+70,58.21,Shops,2021-05-22 23:26:34.005464,Safeway,ndaSnXpzsE,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+71,45.87,Auto,2021-02-12 04:45:47.800323,Pizza My Heart,hjUjnzBfFt,555 Post Street,San Francisco,15,10,94103,CA,Puddle 2
+72,75.96,Home Goods,2021-08-02 10:21:25.577952,Kroger's,HCmdWoswqT,555 Post Street,San Francisco,15,10,94103,CA,Puddle 1
+73,211.76,Shops,2021-04-29 08:17:42.240056,Albertsons,FpARbdqiSg,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+74,222.98,Laundry,2021-03-11 14:05:41.761557,Car Wash Classic,DfFAqasKTF,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+75,34.91,Auto,2021-10-25 13:17:32.128109,Micro Center,jDWWKXpCco,555 Post Street,San Francisco,15,10,94103,CA,Puddle 2
+76,139.61,Shops,2021-01-15 21:48:32.183379,Pizza My Heart,IojnstpqSZ,555 Post Street,San Francisco,15,10,94103,CA,Puddle 1
+77,25.4,Loan,2021-08-30 01:34:25.978210,Kroger's,rbiZWcmNdk,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+78,175.71,Shops,2021-02-05 03:45:37.035387,Micro Center,vEvBUigvlE,555 Post Street,San Francisco,15,10,94103,CA,Puddle 1
+79,244.92,Toy,2021-08-29 14:22:09.603439,Car Wash Classic,BAIJnuwLDf,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+80,58.14,Auto,2021-12-03 17:44:16.092933,Pizza My Heart,fHqRSNvXMe,555 Post Street,San Francisco,15,10,94103,CA,Puddle 1
+81,106.69,Furniture,2021-12-20 13:37:39.538174,Veggie Grill,QYVVUakKPo,555 Post Street,San Francisco,15,10,94103,CA,Puddle 1
+82,227.89,Toy,2021-09-14 00:04:22.305952,Albertsons,brIOUzjeQo,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+83,63.83,Auto,2021-01-13 17:31:25.031855,Safeway,PYqNVALOjx,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+84,90.89,Toy,2021-04-23 01:54:11.971202,Ralphs,LGfQnwRDtr,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+85,122.99,Auto,2021-02-20 05:53:51.068137,Kroger's,ehiPnfwGpv,555 Post Street,San Francisco,15,10,94103,CA,Puddle 2
+86,17.11,Grocery,2021-03-18 07:54:03.348788,Car Wash Classic,oMrwhCxMFG,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+87,32.5,Computer Electronics,2021-03-25 17:28:07.928521,Veggie Grill,EBJEZzQUee,555 Post Street,San Francisco,15,10,94103,CA,Puddle 2
+88,182.58,Shops,2021-07-04 06:17:01.126557,Safeway,anixHgqAbK,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+89,166.31,Auto,2021-06-25 09:10:05.501360,Car Wash Classic,OLGJXDxPBH,555 Post Street,San Francisco,15,10,94103,CA,Puddle 1
+90,21.69,Candy,2021-04-17 12:51:51.838964,Car Wash Classic,epCxPubjQx,555 Post Street,San Francisco,15,10,94103,CA,Puddle 2
+91,235.58,Grocery,2021-12-23 16:10:55.860118,Safeway,UAajigNSRZ,555 Post Street,San Francisco,15,10,94103,CA,Puddle 2
+92,23.9,Auto,2021-12-05 22:59:31.142229,7 Eleven,tIIQAjbVBp,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+93,92.14,Food,2021-08-15 16:06:46.601000,Safeway,cMdbUcImwl,555 Post Street,San Francisco,15,10,94103,CA,Puddle 1
+94,117.54,Rent,2021-05-15 18:50:36.662876,Albertsons,lwGtnAZdgp,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+95,37.19,Shops,2021-04-10 15:04:46.652808,Safeway,ZvjbRrVSXs,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+96,191.31,Food,2021-10-12 14:17:22.936352,Micro Center,ADXEAdYQpd,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+97,82.55,Furniture,2021-11-18 00:19:40.564403,Kroger's,OIdBIcFnjM,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+98,175.03,Grocery,2021-03-21 19:16:42.989730,Micro Center,GwJSOYJUpt,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+99,171.88,Grocery,2021-02-08 19:29:09.073446,Pizza My Heart,NSSCDarNmx,555 Post Street,San Francisco,15,10,94103,CA,Puddle 2
+100,45.1,Grocery,2021-06-18 21:36:33.046386,Best Buy,NXPxBVfoMe,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+101,152.02,Rent,2021-06-29 05:28:09.781979,Best Buy,MMWddJGqWk,555 Post Street,San Francisco,15,10,94103,CA,Puddle 2
+102,240.55,Toy,2021-03-19 12:12:02.943213,Veggie Grill,qEGYGTLtcW,555 Post Street,San Francisco,15,10,94103,CA,Puddle 1
+103,231.7,Home Goods,2021-06-05 19:03:08.130438,Veggie Grill,EuTavyhOIS,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+104,6.7,Laundry,2021-02-12 15:31:22.756032,Kroger's,gyMoolAXVO,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+105,82.61,Candy,2021-12-22 20:16:37.057984,Safeway,EtIFaFBrQI,555 Post Street,San Francisco,15,10,94103,CA,Puddle 1
+106,179.76,Grocery,2021-06-11 22:46:51.210105,7 Eleven,nbSrJXUQSp,555 Post Street,San Francisco,15,10,94103,CA,Puddle 2
+107,181.8,Loan,2021-04-02 17:45:16.192425,Best Buy,sVFlXaDSJJ,555 Post Street,San Francisco,15,10,94103,CA,Puddle 3
+108,121.53,Furniture,2021-11-07 15:37:56.342249,Best Buy,HpoHhULACx,555 Post Street,San Francisco,15,10,94103,CA,Puddle 1
+109,56.92,Auto,2021-04-15 13:10:46.324857,Car Wash Classic,xffCBjCClh,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+110,126.61,Shops,2021-10-23 21:45:44.365777,Veggie Grill,GvqPBGolAN,555 Post Street,San Francisco,15,10,94103,CA,Puddle 4
+>>>>>>> feb114a5ba49105f256310e7c2214f52c9ccee78:puddleify/testing.csv

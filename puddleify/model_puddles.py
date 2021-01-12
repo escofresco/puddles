@@ -48,15 +48,46 @@ def json_to_csv():
 
 
 # cleaning data
-def data_in(data_file):
+def data_cleanse(data_file):
 
     # grab the csv file make it a dataframe
     df = pd.read_csv(data_file)
-    df.head()
 
-    # remove the row or column
+    # remove a column
+    df.drop('0', inplace=True, axis=1)
+
+    # remove missing values by creating a new dataset
+    # df_no_missing = df.loc[(df['column'] != '?')
+    #                       & (df['column2'] != '?2')]
+    # print(df.head())
+
+    # unique values
+    # print(df['amount'].unique())
 
     # guess? 
+    return df
+
+def decision_tree_formatter(df):
+    ''' Once the data has been cleansed, format it here so it's prepared for the treee
+    This splits the data into train and split '''
+
+    # all the coliumns we want to train on in X
+    # print(df.head())
+    X = df.iloc[:, :-1]
+    # print('X HEAD ', X.head())
+    # print(X.dtypes)
+
+    # the column we want to predict in Y
+    y = df['puddle'].copy()
+    # print('y HEAD ', y.head())
+    # print(y.dtypes)
+
+    return ([X, y])
+
+# def one_hot_encoding():
+
 
 if __name__ == '__main__':
-    data_in(data_file)
+
+    cleansed = data_cleanse('testing.csv')
+    format = decision_tree_formatter(cleansed)

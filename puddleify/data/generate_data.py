@@ -86,6 +86,7 @@ class Dataset:
 
         for index, item in enumerate(self.dataset):
             print(index, item)
+
         return
              
     def dataset_to_csv(self, name):
