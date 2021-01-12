@@ -1,111 +1,111 @@
-amount,category,date,name,orginal_description,address,city,lat,lon,state,zip,
-51.53,Loan,2021-08-24 06:28:56.733106,Pizza My Heart,ePxpEcoQlK,123 nowhere street,San Francisco,63,57,94013,NY,Puddle 2
-84.95,Rent,2021-09-21 19:30:03.623528,Micro Center,rJhhdDpTDb,1234 woot street,Berkeley,42,35,94013,TX,Puddle 1
-62.39,Loan,2021-01-23 05:20:10.504457,Kroger's,RdyvGkVBsw,1234 woot street,San Francisco,66,27,94013,OR,Puddle 3
-127.5,Rent,2021-03-16 09:03:09.413797,Safeway,FWfPGhmKwK,1234 woot street,Los Angeles,14,63,94013,NV,Puddle 4
-170.11,Grocery,2021-12-11 21:43:43.724764,Safeway,ZuTaUZLzuY,229 asdfjk drive,Berkeley,22,64,94013,WY,Puddle 2
-95.92,Laundry,2021-12-19 04:06:11.910210,Safeway,weNkAkuCii,555 Post Street,New York,99,35,94013,TX,Puddle 4
-74.22,Food,2021-11-25 16:26:33.189016,Micro Center,wHinsvNrxM,229 asdfjk drive,New York,47,20,94013,NV,Puddle 2
-74.64,Rent,2021-06-01 21:59:39.727803,Car Wash Classic,elLgZYDBIH,555 Post Street,New York,84,46,94013,OR,Puddle 1
-143.77,Food,2021-04-10 05:36:53.267355,Car Wash Classic,OKEssNIXGd,1234 woot street,Los Angeles,58,89,94013,CA,Puddle 2
-65.18,Furniture,2021-09-17 06:16:19.860192,7 Eleven,qSpuifqOfM,1234 woot street,New York,56,89,94013,CA,Puddle 4
-17.49,Loan,2021-08-21 00:39:18.946528,Car Wash Classic,qMUBMlBhVW,229 asdfjk drive,Boston,39,32,94013,NY,Puddle 3
-64.78,Auto,2021-08-17 15:53:56.444789,Kroger's,mtKdaGcMPS,123 nowhere street,San Francisco,28,88,94013,FL,Puddle 1
-110.29,Laundry,2021-02-25 13:26:43.935554,Safeway,lMaWdvXqNp,229 asdfjk drive,San Francisco,74,1,94013,OR,Puddle 3
-73.11,Shops,2021-02-06 07:30:26.071695,Veggie Grill,gBfhBvwrSo,229 asdfjk drive,Los Angeles,59,34,94013,NV,Puddle 1
-169.39,Loan,2021-08-27 22:39:20.122866,Pizza My Heart,HnvIwgqlSf,1234 woot street,San Francisco,99,64,94013,WY,Puddle 1
-131.97,Food,2021-10-13 22:07:14.242561,Kroger's,dHYRwbowvx,123 nowhere street,Philadelphia,11,11,94013,NY,Puddle 4
-47.33,Auto,2021-09-14 01:54:33.371271,Kroger's,qbuQXUMucC,229 asdfjk drive,Philadelphia,74,69,94013,TX,Puddle 4
-240.86,Auto,2021-05-11 18:38:38.877266,7 Eleven,ArLJbTjYtl,123 nowhere street,Philadelphia,93,52,94013,WY,Puddle 3
-237.34,Loan,2021-07-24 13:31:34.903540,Ralphs,IiGChpFGGj,555 Post Street,Los Angeles,61,93,94013,TX,Puddle 2
-218.44,Grocery,2021-08-23 16:53:09.725383,Ralphs,aZBHjarGUE,555 Post Street,Berkeley,80,98,94013,OR,Puddle 4
-163.63,Auto,2021-11-16 12:38:55.891860,Pizza My Heart,AJniqdmdiz,555 Post Street,Boston,99,8,94013,TX,Puddle 2
-77.63,Loan,2021-10-02 22:34:26.081366,Albertsons,KRDpzrkoTQ,1234 woot street,Berkeley,65,71,94013,WY,Puddle 2
-193.7,Computer Electronics,2021-02-20 15:31:53.975248,Micro Center,GdrpQhAJmE,1234 woot street,San Francisco,73,63,94013,TX,Puddle 3
-211.07,Loan,2021-05-21 16:38:58.495616,Kroger's,ACieytezlR,1234 woot street,San Francisco,1,35,94013,WY,Puddle 4
-184.6,Shops,2021-04-10 20:04:42.645901,Car Wash Classic,eCrRlAIZYf,229 asdfjk drive,Philadelphia,81,89,94013,WY,Puddle 4
-90.47,Laundry,2021-07-25 16:50:26.503077,Kroger's,lyRwdhjXCx,229 asdfjk drive,San Francisco,27,76,94013,CA,Puddle 4
-210.32,Computer Electronics,2021-09-16 10:43:45.827059,Veggie Grill,kVWmyiyUbI,123 nowhere street,Philadelphia,78,96,94013,WY,Puddle 1
-106.38,Auto,2021-04-26 09:28:49.733701,Albertsons,NbRawhdOoh,123 nowhere street,New York,6,48,94013,CA,Puddle 1
-109.28,Loan,2021-06-07 20:49:41.378343,Kroger's,rxuTBzXEyA,1234 woot street,Berkeley,14,8,94013,NV,Puddle 3
-176.18,Computer Electronics,2021-11-25 00:37:08.075775,Ralphs,WYnEXadcWY,1234 woot street,Los Angeles,54,9,94013,NV,Puddle 3
-199.06,Toy,2021-08-06 01:51:01.228983,Veggie Grill,IzwRFNioEJ,555 Post Street,Berkeley,75,48,94013,CA,Puddle 3
-61.26,Home Goods,2021-11-09 18:48:01.590944,Pizza My Heart,fOKLSREvVm,229 asdfjk drive,Philadelphia,74,95,94013,OR,Puddle 2
-17.91,Computer Electronics,2021-03-31 22:04:55.331229,Ralphs,xcCsWPEzkz,555 Post Street,Los Angeles,62,38,94013,NV,Puddle 4
-217.0,Toy,2021-11-30 23:46:38.390503,Veggie Grill,KsUqucYKuj,555 Post Street,Berkeley,22,69,94013,FL,Puddle 4
-223.63,Laundry,2021-02-13 22:52:48.459154,Car Wash Classic,EWXMwtKeqV,555 Post Street,Philadelphia,99,82,94013,TX,Puddle 4
-221.84,Home Goods,2021-12-18 01:01:44.192715,Ralphs,csKjaJQcvW,229 asdfjk drive,Philadelphia,92,66,94013,CA,Puddle 1
-130.49,Loan,2021-09-28 15:33:21.602213,Kroger's,slNvSfdmor,229 asdfjk drive,Boston,20,18,94013,CA,Puddle 1
-182.64,Loan,2021-03-21 18:46:56.436237,Pizza My Heart,CvmlXCgOSX,123 nowhere street,New York,80,23,94013,CA,Puddle 4
-227.6,Furniture,2022-01-07 22:25:20.109288,Albertsons,EGdSSAyfQw,555 Post Street,Boston,87,78,94013,WY,Puddle 1
-178.27,Candy,2021-07-24 21:48:18.289599,Car Wash Classic,ajqIoNnehM,229 asdfjk drive,San Francisco,2,20,94013,CA,Puddle 2
-135.59,Toy,2021-08-23 08:48:06.257588,Best Buy,KZYlAoTfEH,123 nowhere street,Berkeley,34,19,94013,NV,Puddle 1
-119.39,Computer Electronics,2021-12-02 09:48:43.561074,Pizza My Heart,UECYDZYMKF,229 asdfjk drive,Los Angeles,10,88,94013,OR,Puddle 1
-112.91,Auto,2021-11-10 21:29:02.454509,Veggie Grill,YuzMSyQaRG,555 Post Street,Philadelphia,25,21,94013,CA,Puddle 4
-68.07,Food,2021-10-20 14:34:04.812035,Micro Center,NZZTFieajF,1234 woot street,San Francisco,100,35,94013,NV,Puddle 1
-167.68,Furniture,2021-04-29 17:39:52.739225,Car Wash Classic,xuxxVbxrPJ,1234 woot street,Boston,95,72,94013,CA,Puddle 3
-48.13,Loan,2021-11-13 15:30:15.962741,Albertsons,IGCqKNQYZQ,123 nowhere street,Berkeley,56,60,94013,OR,Puddle 4
-52.44,Loan,2021-10-22 14:08:19.842047,Safeway,QzJqqAwuYc,1234 woot street,Los Angeles,23,24,94013,FL,Puddle 1
-19.71,Rent,2021-11-08 08:50:07.300117,Ralphs,dKewieDAkW,123 nowhere street,Berkeley,24,59,94013,NY,Puddle 3
-242.87,Shops,2021-09-29 10:12:49.614662,Ralphs,GGNjLJCmhO,1234 woot street,New York,57,34,94013,OR,Puddle 4
-109.54,Toy,2021-02-11 10:28:50.424549,Safeway,zKIGNXQTKx,1234 woot street,New York,39,28,94013,CA,Puddle 4
-208.29,Home Goods,2021-10-10 02:58:38.646035,Albertsons,leIbADCsnN,123 nowhere street,Philadelphia,74,68,94013,TX,Puddle 1
-122.05,Auto,2021-01-16 21:40:43.496729,7 Eleven,rbyNkmhVpc,123 nowhere street,Los Angeles,71,83,94013,WY,Puddle 3
-233.66,Laundry,2021-02-23 14:25:15.729761,Car Wash Classic,EwoOnLtprJ,1234 woot street,New York,20,73,94013,WY,Puddle 2
-190.7,Laundry,2021-11-15 10:27:24.718407,7 Eleven,HFtLudMbTg,123 nowhere street,Berkeley,71,79,94013,NV,Puddle 1
-149.17,Grocery,2021-06-12 10:57:18.065937,Albertsons,EmklBrsjih,1234 woot street,Los Angeles,64,97,94013,OR,Puddle 2
-13.75,Computer Electronics,2021-07-30 10:19:17.013855,Car Wash Classic,PJLWHIrhsf,1234 woot street,Philadelphia,32,1,94013,NY,Puddle 4
-122.88,Computer Electronics,2021-07-02 05:32:14.334906,Micro Center,ShKMYTfLvn,123 nowhere street,Los Angeles,61,42,94013,TX,Puddle 2
-246.01,Furniture,2021-04-24 18:00:17.483484,Safeway,itVEchmkqp,1234 woot street,San Francisco,45,35,94013,OR,Puddle 4
-103.14,Shops,2021-10-17 15:39:58.093716,7 Eleven,GfqmkjjZMT,229 asdfjk drive,Berkeley,91,33,94013,TX,Puddle 4
-167.74,Loan,2021-05-04 13:10:35.219208,Best Buy,WsUCBupBGl,555 Post Street,Boston,86,43,94013,NV,Puddle 1
-45.45,Auto,2021-01-21 12:37:29.964433,Car Wash Classic,rNWXuirFpL,555 Post Street,Philadelphia,46,79,94013,OR,Puddle 1
-66.38,Food,2021-03-02 14:39:41.021268,Car Wash Classic,pfxuJzLUWm,123 nowhere street,Boston,41,53,94013,CA,Puddle 1
-237.12,Computer Electronics,2021-08-30 21:03:23.960921,Best Buy,hfUSDUmlOV,229 asdfjk drive,Berkeley,78,4,94013,FL,Puddle 2
-96.47,Rent,2021-12-28 04:04:36.418896,Ralphs,pVfgbHVtfj,123 nowhere street,San Francisco,26,37,94013,TX,Puddle 3
-145.7,Furniture,2021-08-06 09:22:29.950045,Micro Center,YxBqxFyEge,555 Post Street,Philadelphia,76,29,94013,CA,Puddle 1
-227.53,Home Goods,2021-04-03 04:26:46.973427,Veggie Grill,MpMzPllJZD,229 asdfjk drive,Philadelphia,73,28,94013,WY,Puddle 3
-95.21,Rent,2021-07-30 18:09:45.318971,Safeway,sJXTzIxpcn,555 Post Street,San Francisco,2,60,94013,FL,Puddle 4
-130.79,Home Goods,2021-05-12 15:06:41.676031,Car Wash Classic,MMTDDwcUyv,229 asdfjk drive,San Francisco,84,58,94013,WY,Puddle 2
-53.71,Candy,2022-01-10 20:36:11.784221,7 Eleven,lXaPrAtPae,123 nowhere street,Boston,22,14,94013,NV,Puddle 4
-4.47,Grocery,2021-09-10 00:28:12.238185,Car Wash Classic,qJGkTqGuJb,1234 woot street,New York,83,6,94013,CA,Puddle 3
-109.56,Toy,2021-04-08 06:01:15.021869,Safeway,jZrrapFNxL,229 asdfjk drive,San Francisco,95,18,94013,TX,Puddle 3
-98.02,Laundry,2021-04-16 11:45:48.661969,Ralphs,uQtepejMuZ,123 nowhere street,Berkeley,42,60,94013,NV,Puddle 2
-145.3,Laundry,2021-09-24 20:10:32.194294,7 Eleven,wCmYwgIRJc,1234 woot street,Boston,9,80,94013,TX,Puddle 2
-89.37,Auto,2021-09-23 17:02:49.459589,Car Wash Classic,CGqytEIWMN,1234 woot street,New York,89,54,94013,OR,Puddle 4
-180.54,Home Goods,2021-05-03 02:50:04.725236,Kroger's,terztqTprs,555 Post Street,Boston,37,53,94013,OR,Puddle 1
-227.41,Loan,2021-03-31 08:49:47.164917,Ralphs,KTZfJJsgaB,229 asdfjk drive,Boston,41,97,94013,NV,Puddle 1
-246.38,Auto,2021-05-08 09:36:10.621930,Veggie Grill,pKbBscKQvU,1234 woot street,New York,21,39,94013,FL,Puddle 1
-182.53,Food,2021-03-09 14:35:56.243118,Ralphs,QXiLWgfqrF,1234 woot street,Philadelphia,78,64,94013,NY,Puddle 2
-170.94,Toy,2021-04-09 09:36:41.735395,Micro Center,dOxWsDHhoq,1234 woot street,New York,84,52,94013,OR,Puddle 3
-205.2,Computer Electronics,2021-03-31 02:30:26.282947,Ralphs,teASqPIsND,1234 woot street,New York,59,6,94013,TX,Puddle 3
-49.52,Home Goods,2021-02-01 10:24:30.037107,7 Eleven,oJhWOzQRzQ,1234 woot street,San Francisco,29,85,94013,NV,Puddle 3
-147.64,Shops,2021-01-25 23:01:09.449349,Best Buy,BjyUHmhUJB,123 nowhere street,Los Angeles,67,47,94013,TX,Puddle 1
-166.05,Candy,2021-06-16 04:09:11.025289,Safeway,fouilZaMqK,229 asdfjk drive,Berkeley,19,25,94013,FL,Puddle 2
-152.54,Candy,2021-12-21 05:09:46.999075,Safeway,JWeILKPuoK,123 nowhere street,Philadelphia,70,89,94013,NY,Puddle 1
-233.39,Rent,2021-07-28 21:42:03.700007,Micro Center,zDxLTwMFhW,229 asdfjk drive,Philadelphia,86,13,94013,FL,Puddle 2
-122.23,Computer Electronics,2021-03-01 22:43:52.629721,7 Eleven,IiDqWugoiY,1234 woot street,San Francisco,71,75,94013,NY,Puddle 4
-4.66,Food,2022-01-02 23:21:05.341943,7 Eleven,JOARVknYlW,555 Post Street,Berkeley,48,44,94013,NY,Puddle 4
-89.23,Candy,2021-12-24 18:08:17.533281,7 Eleven,VqRavIcsOj,229 asdfjk drive,Philadelphia,46,56,94013,OR,Puddle 3
-34.03,Shops,2021-06-21 09:55:57.172205,Car Wash Classic,puVlwmvBOf,229 asdfjk drive,Boston,99,69,94013,OR,Puddle 4
-26.54,Shops,2021-08-21 11:56:28.089316,Kroger's,DWUmybTklN,123 nowhere street,New York,94,14,94013,CA,Puddle 1
-131.81,Laundry,2021-09-21 06:00:19.477370,7 Eleven,VsyvcKgPmd,229 asdfjk drive,New York,44,50,94013,TX,Puddle 4
-209.82,Computer Electronics,2021-09-03 13:31:33.344426,Best Buy,gBVUTwUcOx,123 nowhere street,San Francisco,75,24,94013,WY,Puddle 2
-163.14,Food,2021-05-25 13:48:18.143356,Ralphs,cayNqzHSYx,555 Post Street,Los Angeles,50,86,94013,TX,Puddle 2
-241.36,Rent,2021-04-22 15:07:10.713165,Best Buy,ubbonLwReX,555 Post Street,Philadelphia,81,49,94013,WY,Puddle 3
-219.19,Food,2021-02-07 17:52:25.491339,Albertsons,YkmOUzKEeb,123 nowhere street,San Francisco,35,3,94013,FL,Puddle 4
-130.17,Computer Electronics,2021-11-19 01:29:35.564551,Kroger's,ssAtzJKtIp,123 nowhere street,Philadelphia,45,17,94013,CA,Puddle 3
-34.64,Rent,2021-11-03 02:29:22.480377,Best Buy,aFFdwJXecA,229 asdfjk drive,Berkeley,58,36,94013,OR,Puddle 2
-17.95,Home Goods,2021-05-20 18:05:40.440758,Best Buy,kLybHcNBRp,229 asdfjk drive,San Francisco,60,26,94013,OR,Puddle 3
-207.54,Computer Electronics,2021-12-21 06:57:10.932684,Safeway,WSYBUDhoqV,229 asdfjk drive,Los Angeles,77,10,94013,NV,Puddle 1
-41.03,Furniture,2021-01-30 23:07:21.022598,Best Buy,cyFElXlZaH,123 nowhere street,San Francisco,38,51,94013,OR,Puddle 1
-176.28,Auto,2021-08-04 14:17:39.709592,Car Wash Classic,bqchewOWTW,123 nowhere street,New York,27,17,94013,NV,Puddle 4
-8.23,Laundry,2021-11-02 11:46:23.964709,Kroger's,iYjnKtCDSl,1234 woot street,Boston,100,9,94013,CA,Puddle 1
-137.69,Candy,2021-05-31 22:59:59.538559,Veggie Grill,bTnzTbuquH,555 Post Street,Los Angeles,18,78,94013,TX,Puddle 3
-120.53,Rent,2021-02-10 14:19:22.171366,Safeway,ZbhopJCLAZ,1234 woot street,New York,87,89,94013,CA,Puddle 2
-186.53,Toy,2021-03-23 09:13:09.540223,Safeway,KmtcGgTDJI,123 nowhere street,Los Angeles,28,70,94013,NV,Puddle 4
-44.94,Laundry,2021-04-29 21:53:09.924378,Veggie Grill,HthxocsdGv,229 asdfjk drive,San Francisco,90,54,94013,WY,Puddle 1
-53.7,Shops,2021-11-12 21:48:06.252461,Albertsons,UpVQOJZPDo,123 nowhere street,Los Angeles,11,64,94013,NV,Puddle 1
-142.54,Food,2021-03-26 10:51:04.521986,Best Buy,HUIgnbWMkb,229 asdfjk drive,Boston,80,86,94013,TX,Puddle 2
-70.35,Loan,2021-03-08 16:07:33.336901,Albertsons,CMOWnanjfd,555 Post Street,New York,37,46,94013,OR,Puddle 3
-54.61,Toy,2021-06-28 06:00:34.066988,Best Buy,AglgaryeYc,555 Post Street,Philadelphia,19,15,94013,NV,Puddle 3
+amount,category,date,name,orginal_description,address,city,lat,lon,state,zip,puddle
+91.8,Laundry,2021-08-16 07:54:39.283834,Car Wash Classic,hoIdWEitxD,123 nowhere street,Los Angeles,38,13,94013,NV,Puddle 2
+135.41,Loan,2021-03-10 15:54:20.902310,Car Wash Classic,QPGwAvBQRW,123 nowhere street,Boston,55,11,94013,TX,Puddle 1
+7.37,Rent,2021-08-19 08:06:05.961560,Safeway,wIZBZoQsVW,1234 woot street,San Francisco,86,76,94013,NY,Puddle 3
+203.64,Shops,2021-07-02 15:45:09.757070,Ralphs,JyzVDnMiDb,1234 woot street,Los Angeles,37,93,94013,NV,Puddle 1
+113.67,Home Goods,2021-12-24 22:47:55.403185,Car Wash Classic,ZDZYlmOfqG,123 nowhere street,Berkeley,68,2,94013,WY,Puddle 1
+111.45,Food,2021-09-19 22:07:19.357276,Ralphs,iLCmNzLMTJ,123 nowhere street,Berkeley,86,24,94013,OR,Puddle 3
+178.75,Laundry,2021-04-28 23:53:26.585432,Pizza My Heart,HhrnZHHTZd,1234 woot street,Boston,96,82,94013,TX,Puddle 1
+108.51,Laundry,2021-12-13 11:39:49.683225,Car Wash Classic,jhLGtTmFZF,229 asdfjk drive,New York,40,20,94013,NV,Puddle 2
+68.63,Candy,2021-04-23 03:57:29.539070,Ralphs,cReaXcqLUl,1234 woot street,Philadelphia,100,82,94013,TX,Puddle 2
+9.49,Computer Electronics,2021-10-03 19:13:26.027838,Car Wash Classic,IFatqFLLBa,1234 woot street,Philadelphia,78,97,94013,NV,Puddle 4
+130.63,Shops,2021-09-18 04:50:17.007396,Pizza My Heart,YtCyLzHzAO,555 Post Street,Boston,72,44,94013,CA,Puddle 1
+26.16,Food,2021-04-23 08:58:02.708492,Best Buy,glcepAXSkw,123 nowhere street,San Francisco,90,27,94013,NY,Puddle 2
+217.44,Shops,2021-02-25 01:12:23.964771,Pizza My Heart,YSvsAtgdCJ,229 asdfjk drive,Los Angeles,65,73,94013,OR,Puddle 2
+249.68,Auto,2021-07-20 11:11:22.440634,7 Eleven,BTWVCpoWhW,123 nowhere street,Los Angeles,92,20,94013,OR,Puddle 2
+134.87,Candy,2021-10-20 01:08:03.822067,Car Wash Classic,OdlOoPGOyu,123 nowhere street,Philadelphia,40,57,94013,FL,Puddle 3
+56.79,Computer Electronics,2021-06-08 15:23:41.692974,Pizza My Heart,nuqjRGNIDY,229 asdfjk drive,Berkeley,16,86,94013,CA,Puddle 3
+26.31,Toy,2021-10-12 13:46:38.854539,Albertsons,NemrHuZxmN,123 nowhere street,Philadelphia,10,68,94013,NV,Puddle 2
+211.19,Food,2021-01-24 11:44:59.377279,Ralphs,dVLQTvgFFX,555 Post Street,Berkeley,17,48,94013,FL,Puddle 1
+153.5,Laundry,2021-01-28 15:30:40.180236,7 Eleven,XWdLZLzxXU,229 asdfjk drive,Boston,80,100,94013,NY,Puddle 1
+12.33,Laundry,2022-01-07 23:29:22.230204,Veggie Grill,UOqrQeoCXb,1234 woot street,Philadelphia,78,63,94013,WY,Puddle 1
+61.97,Food,2021-09-09 12:10:05.812733,Safeway,xHQIuZDtKX,1234 woot street,Philadelphia,93,10,94013,NY,Puddle 1
+187.41,Toy,2021-07-14 07:05:54.249298,Micro Center,wgrMWOQoSC,1234 woot street,New York,10,49,94013,WY,Puddle 1
+208.83,Loan,2021-12-05 16:22:23.385653,Pizza My Heart,tAnuFNxTdq,123 nowhere street,Los Angeles,11,74,94013,TX,Puddle 4
+138.29,Food,2021-03-20 08:22:33.246554,Car Wash Classic,kCkdWtceuR,555 Post Street,Berkeley,69,92,94013,CA,Puddle 1
+205.15,Toy,2021-06-11 12:01:49.864750,Ralphs,rvFncjKaqi,123 nowhere street,Boston,84,5,94013,FL,Puddle 4
+33.69,Furniture,2021-08-13 01:09:47.760744,Albertsons,LfcPoGgwmq,1234 woot street,Los Angeles,15,92,94013,OR,Puddle 3
+104.36,Laundry,2022-01-02 14:15:57.386840,Ralphs,rBOpAdTwHv,555 Post Street,Philadelphia,51,34,94013,WY,Puddle 4
+86.89,Laundry,2021-11-27 02:36:47.929665,7 Eleven,RBskEBxnxr,1234 woot street,Philadelphia,56,50,94013,FL,Puddle 1
+244.58,Loan,2021-09-25 14:39:13.440152,Car Wash Classic,OquFFkMSUR,1234 woot street,Los Angeles,69,86,94013,OR,Puddle 4
+243.74,Shops,2021-11-16 08:56:35.065927,Car Wash Classic,CIFyvztPbl,123 nowhere street,Los Angeles,72,37,94013,WY,Puddle 1
+18.16,Home Goods,2021-02-28 14:32:59.084619,Best Buy,URFpoToGmm,1234 woot street,San Francisco,47,74,94013,NV,Puddle 4
+121.5,Food,2021-10-09 07:54:51.731379,7 Eleven,YFTtKcFwzM,555 Post Street,Los Angeles,96,14,94013,OR,Puddle 4
+205.18,Auto,2021-04-19 04:56:43.194562,7 Eleven,tXtmBgPSuI,123 nowhere street,Philadelphia,20,97,94013,FL,Puddle 4
+96.91,Auto,2021-04-22 02:49:41.214756,Car Wash Classic,YVFMcLCpgH,229 asdfjk drive,Berkeley,48,51,94013,CA,Puddle 4
+39.92,Food,2021-02-19 09:15:08.122320,Micro Center,HUBAAQseGC,123 nowhere street,Boston,2,62,94013,NV,Puddle 2
+51.28,Food,2021-12-19 16:05:14.791200,Kroger's,mcqqXMvzar,1234 woot street,Boston,12,50,94013,NY,Puddle 3
+195.64,Home Goods,2021-03-11 11:39:23.295370,Pizza My Heart,atuxCwdofW,123 nowhere street,Los Angeles,64,42,94013,TX,Puddle 2
+34.57,Toy,2021-11-06 19:11:48.234759,Veggie Grill,xoantzpzfx,229 asdfjk drive,Boston,5,33,94013,NY,Puddle 4
+7.22,Grocery,2021-02-08 21:27:02.466062,Car Wash Classic,VqnzsjcdgT,229 asdfjk drive,San Francisco,53,69,94013,NV,Puddle 2
+241.35,Laundry,2021-08-02 09:05:07.051212,Car Wash Classic,LjsVZqbYBA,229 asdfjk drive,Philadelphia,28,22,94013,TX,Puddle 4
+23.82,Laundry,2021-10-21 18:05:46.070217,Micro Center,LZzDQloKoI,123 nowhere street,Berkeley,99,72,94013,NV,Puddle 2
+246.63,Laundry,2021-06-22 10:39:25.540871,Pizza My Heart,gNeAxbfMdt,555 Post Street,Boston,75,50,94013,FL,Puddle 1
+53.73,Toy,2021-12-23 04:35:23.365672,Veggie Grill,iRirAslZtE,229 asdfjk drive,New York,12,92,94013,FL,Puddle 2
+129.78,Computer Electronics,2021-04-26 05:07:42.322068,Best Buy,tNhQpIyoCz,229 asdfjk drive,Berkeley,75,6,94013,FL,Puddle 1
+166.52,Loan,2021-07-28 15:29:58.107031,Albertsons,nbgYOtIqvK,555 Post Street,New York,44,15,94013,FL,Puddle 2
+96.81,Shops,2021-06-03 06:06:46.361643,Best Buy,vqSlJNdpzr,555 Post Street,Philadelphia,69,61,94013,CA,Puddle 2
+170.84,Grocery,2021-09-07 07:04:52.780018,Pizza My Heart,TqhouAbIoX,229 asdfjk drive,New York,37,51,94013,NV,Puddle 3
+78.49,Shops,2021-10-27 16:41:24.110443,Micro Center,GeuMMBYhOe,555 Post Street,San Francisco,25,18,94013,TX,Puddle 1
+218.81,Shops,2021-11-20 01:47:39.060456,Best Buy,MvaYMfAXbE,1234 woot street,Los Angeles,33,24,94013,NV,Puddle 2
+149.89,Laundry,2021-01-16 09:36:03.691173,7 Eleven,kfPnlNrEon,1234 woot street,Los Angeles,2,58,94013,FL,Puddle 2
+179.95,Auto,2021-03-28 11:16:52.051507,Veggie Grill,nJeqKlmpNr,123 nowhere street,San Francisco,13,17,94013,NV,Puddle 3
+177.55,Candy,2021-12-23 08:46:06.155878,Albertsons,IPBhQkLakI,1234 woot street,San Francisco,42,59,94013,TX,Puddle 2
+92.43,Toy,2021-08-18 07:07:19.617892,Kroger's,MLgarYptzf,1234 woot street,New York,90,39,94013,NY,Puddle 4
+117.3,Rent,2021-10-26 19:38:21.852533,Micro Center,oJbfXWYsQc,123 nowhere street,New York,23,59,94013,TX,Puddle 3
+35.79,Loan,2021-11-18 16:08:25.023936,7 Eleven,apjkaAlPSx,123 nowhere street,Berkeley,6,87,94013,WY,Puddle 4
+106.21,Rent,2021-07-23 06:35:55.697351,Kroger's,DPQPyNZbWY,555 Post Street,New York,90,100,94013,OR,Puddle 2
+81.21,Candy,2021-01-22 04:25:24.993591,Albertsons,lfPBanyRpb,1234 woot street,Berkeley,69,96,94013,TX,Puddle 3
+169.82,Shops,2021-06-25 09:57:22.546087,Ralphs,eznypPlOxL,555 Post Street,New York,41,89,94013,FL,Puddle 4
+129.5,Home Goods,2021-06-18 21:53:10.733740,Safeway,BVpUIyPzKA,123 nowhere street,Boston,97,41,94013,TX,Puddle 4
+9.78,Toy,2021-03-29 05:43:10.870392,Veggie Grill,QSVYNwoDqV,229 asdfjk drive,Berkeley,88,99,94013,OR,Puddle 4
+109.14,Auto,2021-02-22 07:26:20.612327,Ralphs,bbEVqCINsb,555 Post Street,Boston,93,100,94013,CA,Puddle 4
+12.35,Auto,2021-07-10 09:00:42.377711,Albertsons,qlyIzVigPO,123 nowhere street,Philadelphia,67,97,94013,FL,Puddle 2
+147.66,Auto,2021-07-28 18:56:39.920846,Car Wash Classic,CtuGNeyHkI,123 nowhere street,San Francisco,38,43,94013,NV,Puddle 1
+65.05,Computer Electronics,2021-12-07 07:30:59.698721,Kroger's,fQbzsEMvDW,123 nowhere street,Los Angeles,92,33,94013,OR,Puddle 4
+223.25,Grocery,2021-03-19 06:23:20.618930,Albertsons,iCAcmEoNyo,555 Post Street,Berkeley,74,90,94013,TX,Puddle 2
+192.25,Furniture,2021-08-13 11:39:17.333776,Veggie Grill,jVfmWHZSas,555 Post Street,New York,22,2,94013,CA,Puddle 2
+45.84,Home Goods,2021-05-12 09:17:01.430711,Veggie Grill,FBwleAsRJX,229 asdfjk drive,New York,99,24,94013,NV,Puddle 2
+198.45,Auto,2021-09-13 00:54:16.993285,7 Eleven,ShgmsRclbz,229 asdfjk drive,New York,29,98,94013,TX,Puddle 1
+201.44,Laundry,2021-10-23 00:27:28.920172,Car Wash Classic,MjAYmkzPHZ,1234 woot street,San Francisco,97,43,94013,CA,Puddle 3
+16.15,Food,2021-04-19 01:41:12.395078,Ralphs,rbNPaPJPpb,555 Post Street,Boston,13,45,94013,NV,Puddle 4
+57.64,Candy,2021-03-13 10:09:27.908571,Car Wash Classic,sBsMJYhCDb,1234 woot street,Berkeley,77,26,94013,CA,Puddle 1
+219.15,Furniture,2021-10-16 16:35:23.247938,Car Wash Classic,IjlMxMccLX,1234 woot street,Berkeley,98,13,94013,CA,Puddle 1
+130.5,Grocery,2021-08-10 02:43:34.574638,Micro Center,xGWIieJnGt,229 asdfjk drive,Philadelphia,58,44,94013,OR,Puddle 3
+205.29,Grocery,2021-07-09 07:09:06.792739,Albertsons,NRgoKOKBAI,555 Post Street,Philadelphia,46,24,94013,FL,Puddle 2
+120.89,Auto,2021-01-28 01:38:58.866065,7 Eleven,WHktJxJBzN,1234 woot street,San Francisco,25,65,94013,OR,Puddle 3
+79.82,Computer Electronics,2021-09-05 00:04:30.254013,Albertsons,FDTmbFvafK,229 asdfjk drive,Los Angeles,1,100,94013,NY,Puddle 1
+212.47,Home Goods,2021-04-24 22:11:40.385922,7 Eleven,EdHMiGFUjv,123 nowhere street,Los Angeles,3,3,94013,NV,Puddle 4
+46.79,Loan,2021-12-27 12:02:07.598678,Best Buy,TojwYWkLgO,229 asdfjk drive,Los Angeles,83,58,94013,WY,Puddle 4
+114.21,Shops,2021-08-01 16:08:59.317500,7 Eleven,yuYlIKtXTD,123 nowhere street,Berkeley,96,85,94013,FL,Puddle 2
+224.23,Shops,2021-09-02 12:07:05.553441,Safeway,aLWaCATeZj,123 nowhere street,Berkeley,6,98,94013,NV,Puddle 1
+179.64,Toy,2021-03-09 01:24:43.502098,7 Eleven,QMENoJZBid,555 Post Street,San Francisco,45,34,94013,NY,Puddle 3
+246.65,Candy,2021-06-30 18:10:09.179468,Veggie Grill,UfgvTjKLol,1234 woot street,San Francisco,87,68,94013,FL,Puddle 3
+129.26,Grocery,2022-01-08 22:39:58.015391,7 Eleven,HHyTDNxHcn,555 Post Street,Berkeley,16,88,94013,NV,Puddle 4
+154.29,Loan,2021-09-23 16:50:15.947430,Car Wash Classic,mzzvElmUlV,1234 woot street,New York,70,8,94013,NY,Puddle 4
+159.56,Food,2021-12-09 09:14:07.262501,Ralphs,jVAxGVMZrI,555 Post Street,Boston,26,3,94013,FL,Puddle 3
+66.97,Food,2021-03-21 22:10:09.040932,Pizza My Heart,wkCexLIqmz,555 Post Street,New York,65,48,94013,TX,Puddle 2
+217.15,Grocery,2021-08-01 05:39:10.291603,Safeway,VznofihTqb,555 Post Street,Los Angeles,60,25,94013,CA,Puddle 3
+17.7,Loan,2021-05-31 09:19:13.622671,7 Eleven,kHEzYVrWlF,229 asdfjk drive,Philadelphia,92,87,94013,FL,Puddle 1
+58.52,Laundry,2021-07-20 03:11:14.317807,Ralphs,CXQTLihohe,1234 woot street,Boston,32,31,94013,TX,Puddle 2
+103.94,Toy,2021-11-15 11:54:33.274927,Veggie Grill,HQbdwfNEnb,229 asdfjk drive,Berkeley,82,76,94013,FL,Puddle 4
+76.64,Rent,2021-09-26 01:11:28.119513,7 Eleven,FeaeOMgWKN,555 Post Street,Los Angeles,19,99,94013,FL,Puddle 3
+16.29,Furniture,2021-12-08 04:53:06.740898,Kroger's,SkUhNgfYum,555 Post Street,New York,68,40,94013,WY,Puddle 2
+116.14,Toy,2021-10-05 16:08:56.944113,Veggie Grill,uiQFRjPhvT,123 nowhere street,San Francisco,85,62,94013,FL,Puddle 4
+49.7,Laundry,2021-07-04 17:30:47.676464,Pizza My Heart,odWlrBKwUc,555 Post Street,Boston,20,41,94013,CA,Puddle 4
+119.26,Home Goods,2021-09-30 04:31:52.357672,Best Buy,qfhLeiYMGa,555 Post Street,New York,41,20,94013,FL,Puddle 1
+50.5,Toy,2021-05-03 17:00:49.993352,Car Wash Classic,UGovrBknbz,229 asdfjk drive,Boston,96,58,94013,CA,Puddle 2
+18.44,Candy,2021-08-13 17:53:45.716333,Pizza My Heart,uxOeWQYMFO,1234 woot street,Los Angeles,44,39,94013,OR,Puddle 2
+237.45,Rent,2021-08-03 10:21:26.421493,Micro Center,rZuzMauEus,123 nowhere street,Boston,83,50,94013,FL,Puddle 2
+228.21,Toy,2021-12-21 21:44:30.045152,7 Eleven,iFYqToyawq,1234 woot street,New York,67,13,94013,WY,Puddle 2
+68.89,Grocery,2021-08-12 05:31:07.528718,Ralphs,OGKHHjWRey,229 asdfjk drive,Los Angeles,40,13,94013,NV,Puddle 4
+121.75,Auto,2021-12-10 23:25:39.411121,Safeway,MlDnBfprGT,123 nowhere street,Berkeley,48,47,94013,FL,Puddle 2
+155.43,Laundry,2021-08-08 00:43:23.274509,Safeway,bpcBtOdnko,229 asdfjk drive,Philadelphia,47,29,94013,NV,Puddle 3
+42.44,Home Goods,2021-03-10 20:49:31.592621,Kroger's,HIYGWVkTBO,1234 woot street,Philadelphia,43,43,94013,NV,Puddle 1
+43.96,Auto,2021-06-30 18:55:47.944182,7 Eleven,znpSzHcyEi,229 asdfjk drive,Los Angeles,65,64,94013,CA,Puddle 1
+156.09,Grocery,2021-04-30 11:00:35.378265,Safeway,dofnErbsLQ,555 Post Street,Philadelphia,31,93,94013,WY,Puddle 4
+98.32,Auto,2021-07-15 06:45:13.300386,7 Eleven,icIREofYip,229 asdfjk drive,San Francisco,97,9,94013,NY,Puddle 3
+86.22,Loan,2021-05-31 13:09:46.630859,Best Buy,GrCPGOUIIQ,229 asdfjk drive,Berkeley,48,30,94013,TX,Puddle 3
+104.0,Food,2021-07-06 12:53:53.295703,Ralphs,KxfZCjWJwu,229 asdfjk drive,New York,91,19,94013,TX,Puddle 2
+24.19,Grocery,2021-05-19 02:26:23.503353,Safeway,HuySdGZLNz,1234 woot street,San Francisco,38,17,94013,NY,Puddle 2
+55.91,Food,2021-04-05 00:24:22.366234,Albertsons,kwUmiJlkvb,555 Post Street,Los Angeles,31,50,94013,NV,Puddle 2

@@ -54,7 +54,7 @@ def data_cleanse(data_file):
     df = pd.read_csv(data_file)
 
     # remove a column
-    df.drop('0', inplace=True, axis=1)
+    # df.drop('0', inplace=True, axis=1)
 
     # remove missing values by creating a new dataset
     # df_no_missing = df.loc[(df['column'] != '?')
