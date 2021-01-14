@@ -20,3 +20,5 @@ django-redis==4.11.0  # https://github.com/niwinz/django-redis
 djangorestframework==3.11.0  # https://github.com/encode/django-rest-framework
 # Heroku
 django-heroku # https://devcenter.heroku.com/articles/django-app-configuration
+# Plaid
+plaid-python

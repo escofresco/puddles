@@ -313,4 +313,13 @@ PUDDLE_CODES = [
     "Score never initialized.",
     "User has no score property."]
 
-THEME_STYLE = "dark"
+# Theme style
+THEME_STYLE = "light"
+
+# Plaid
+PLAID_CLIENT_ID = env("PLAID_CLIENT_ID")
+PLAID_PUBLIC_KEY = env("PLAID_PUBLIC_KEY")
+PLAID_SECRET = env("PLAID_SECRET")
+PLAID_PRODUCTS = env("PLAID_PRODUCTS", default="transactions").split(',')
+PLAID_COUNTRY_CODES = env("PLAID_COUNTRY_CODES", default="US").split(',')
+PLAID_ENV = env("PLAID_ENV", default="sandbox")

@@ -1,3 +1,4 @@
+import json
 from django.contrib.auth import get_user_model
 
 from config import celery_app
@@ -11,7 +12,5 @@ def get_users_count():
     return User.objects.count()
 
 @celery_app.task()
-def invoke_knime_creditscore_predictor_endpoint():
-    """A celery task to invoke the Knime Credit Score Predictor from the AWS
-    Marketplace"""
-    raise NotImplemented
+def pretty_print_response(response):
+    print(json.dumps(response, indent=2, sort_keys=True))
