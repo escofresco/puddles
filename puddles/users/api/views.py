@@ -9,7 +9,7 @@ from rest_framework.mixins import ListModelMixin, RetrieveModelMixin, UpdateMode
 from rest_framework.response import Response
 from rest_framework.viewsets import GenericViewSet, ViewSet
 
-from users.api.serializers import TransactionsSerializer, UserSerializer
+from .serializers import TransactionsSerializer, UserSerializer
 
 User = get_user_model()
 class Transactions:
