@@ -6,7 +6,6 @@ from django.db.models.fields import FloatField
 from django.urls import reverse
 from django.utils.translation import ugettext_lazy as _
 import plaid
-from .tasks import pretty_print_response
 
 
 class User(AbstractUser):
