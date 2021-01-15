@@ -13,7 +13,6 @@ class User(AbstractUser):
     # First Name and Last Name do not cover name patterns
     # around the globe.
     name = CharField(_("Name of User"), blank=True, max_length=255)
-    score = IntegerField(_("Credit Score"), default=0)
 
     def get_absolute_url(self):
         return reverse("users:detail", kwargs={"username": self.username})
@@ -24,12 +23,11 @@ class User(AbstractUser):
 #     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
 
 
-# class BankAccount(models.Model):
+class BankAccount(models.Model):
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    balance = models.FloatField()
 
-#     raw = models.CharField()
-#     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
 
-
-# class BankTransaction(models.Model):
-#     amount = models.FloatField()
-#     bank_account = models.ForeignKey(BankAccount, on_delete=models.CASCADE)
+class BankTransaction(models.Model):
+    amount = models.FloatField()
+    bank_account = models.ForeignKey(BankAccount, on_delete=models.CASCADE)

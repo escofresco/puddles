@@ -1,4 +1,5 @@
 {
     "python.pythonPath": "/opt/anaconda3/envs/puddles/bin/python",
-    "files.autoSave": "onFocusChange"
+    "files.autoSave": "onFocusChange",
+    "python.formatting.provider": "yapf"
 }
