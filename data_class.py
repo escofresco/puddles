@@ -1,4 +1,24 @@
 
+''' 
+Steps for handling data: 
+
+x   We create a Data class to grab the plaid data and format/access it more easily.
+
+        two immediate simultaneous paths occur -> one to the UI side and one to the ML
+        when the UI page is loading, plaid data should be retrieved by Data class. 
+
+o   UI access Data to display the new, current data
+o   At the same time, make a call to the ML model to make predictions on the data
+        the Data class can help facilitate if different formats of data are required for the model and the UI.
+
+o   Those predictions can get recorded in Data and sent to the UI, also the inputs of the puddles from the user will get recorded in Data.
+
+o   Once complete, we should plug that data into the DB.
+
+o   We should train a new model and save it as a pickle file for next time's use. if we can 
+
+''' 
+
 # -> trying to be able to retrieve the JSON Data 
 import json
 import requests
@@ -16,7 +36,7 @@ class Data:
 
         self.labels = [label for label in self.response[0].keys()] # labels / columns / headers (keys of json data)
         self.trx_lists = [[item.values()] for item in self.response] # transactions as a list of lists
-
+        
         return
         
     
@@ -30,6 +50,19 @@ class Data:
         print(self.response)
 
         return 
+
+    def recents(self):
+        ''' SEE IF PLAID CAN GIVE US THE MOST RECENT TRANSACTIONS THAT WE DON'T HAVE IN THE DB '''
+        pass
+    
+    def by_date(self, date):
+        ''' return transaction items within a date range '''
+        # SEE IF PLAID CAN GIVE US THE MOST RECENT TRANSACTIONS THAT WE DON'T HAVE IN THE DB
+        pass
+    
+    def by_range(self, end, start=0):
+        ''' return transactions in some range ''' 
+        return self.trx_lists[start:end]
     
     # def request_length(self, response):
     #     ''' takes the large string response and breaks it up '''
@@ -63,7 +96,6 @@ class Data:
         
         
     #     return matrix
-    
 
     def json_to_csv(self, json_f):
     # accept JSON data, turn it into a csv file
