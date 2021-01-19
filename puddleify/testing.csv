@@ -1,4 +1,4 @@
-amount,category,date,name,orginal_description,address,city,lat,lon,state,zip,puddle
+amount,category,date,name,orginal_description,address,city,lat,lon,zip,state,puddle
 91.8,Laundry,2021-08-16 07:54:39.283834,Car Wash Classic,hoIdWEitxD,123 nowhere street,Los Angeles,38,13,94013,NV,Puddle 2
 135.41,Loan,2021-03-10 15:54:20.902310,Car Wash Classic,QPGwAvBQRW,123 nowhere street,Boston,55,11,94013,TX,Puddle 1
 7.37,Rent,2021-08-19 08:06:05.961560,Safeway,wIZBZoQsVW,1234 woot street,San Francisco,86,76,94013,NY,Puddle 3

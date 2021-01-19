@@ -83,8 +83,8 @@ class Dataset:
                 the_row.append(self.rand_city())
                 the_row.append(self.rand_lat())
                 the_row.append(self.rand_lon())
-                the_row.append(self.rand_zip())
                 the_row.append(self.rand_state())
+                the_row.append(self.rand_zip())
                 self.dataset.append(the_row)
 
         for index, item in enumerate(self.dataset):
