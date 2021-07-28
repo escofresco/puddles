@@ -1,222 +1,58 @@
-# Plaid quickstart
+# Hello SQLite!
 
-This repository accompanies Plaid's [**quickstart guide**][quickstart].
+This project includes a [Node.js](https://nodejs.org/en/about/) server script that uses a persistent [SQLite](https://www.sqlite.org) database. The app also includes a front-end with two web pages that connect to the database using the server API. 📊
 
-Here you'll find full example integration apps using our [**client libraries**][libraries]:
+The home page presents the user with a poll where they can choose an option, then the page presents the results in a chart. The admin page displays the log of past choices and allows the user to clear it by supplying an admin key (you can set this up by following the steps in `TODO.md`). 🔒
 
-![Plaid quickstart app](/assets/quickstart.jpeg)
+## Prerequisites
 
-## Table of contents
+To get best use out of this project you'll ideally be familiar with JavaScript and have a little Node.js experience–check out [Hello Node](https://glitch.com/~glitch-hello-node) if you haven't already!
 
-<!-- toc -->
+## What's in this project?
 
-- [1. Clone the repository](#1-clone-the-repository)
-  - [Special instructions for Windows](#special-instructions-for-windows)
-- [2. Set up your environment variables](#2-set-up-your-environment-variables)
-- [3. Run the quickstart](#3-run-the-quickstart)
-  - [Run with Docker](#run-with-docker)
-    - [Pre-requisites](#pre-requisites-1)
-    - [Running](#running-1)
-      - [Start the container](#start-the-container)
-      - [View the logs](#view-the-logs)
-      - [Stop the container](#stop-the-container)
-  - [Run without Docker](#run-without-docker)
-    - [Pre-requisites](#pre-requisites)
-    - [1. Running the backend](#1-running-the-backend)
-      - [Node](#node)
-      - [Python](#python)
-      - [Ruby](#ruby)
-      - [Go](#go)
-      - [Java](#java)
-    - [2. Running the frontend](#2-running-the-frontend)
-- [Testing OAuth](#testing-oauth)
+← `README.md`: That’s this file, where you can tell people what your cool website does and how you built it.
 
-<!-- tocstop -->
+← `package.json`: The NPM packages for your project's dependencies.
 
-## 1. Clone the repository
+← `.env`: The environment is cleared when you initially remix the project, but you will add a new env variable value when you follow the steps in `TODO.md` to set up an admin key.
 
-Using https:
+### Server and database
 
-```
-$ git clone https://github.com/plaid/quickstart
-$ cd quickstart
-```
+← `server.js`: The Node.js server script for your new site. The JavaScript defines the endpoints in the site API. The API processes requests, connects to the database using the `sqlite` script in `src`, and sends info back to the client (the web pages that make up the app user interface, built using the Handlebars templates in `src/pages`).
 
-Alternatively, if you use ssh:
+← `/src/sqlite.js`: The database script handles setting up and connecting to the SQLite database. The `server.js` API endpoints call the functions in the database script to manage the data.
 
-```
-$ git clone git@github.com:plaid/quickstart.git
-$ cd quickstart
-```
+← `/src/data.json`: The data config file includes the database manager script–`server.js` reads the `database` property to import the correct script.
 
-#### Special instructions for Windows
+When the app runs, the scripts build the database:
 
-Note - because this repository makes use of symlinks, to run this on a Windows machine, use
-the following command when cloning the project
+← `.data/choices.db`: Your database is created and placed in the `.data` folder, a hidden directory whose contents aren’t copied when a project is remixed. You can see the contents of `.data` in the console by selecting __Tools__ >  __Logs__.
 
-```
-$ git clone -c core.symlinks=true https://github.com/plaid/quickstart
-```
+### User interface
 
-## 2. Set up your environment variables
+← `public/style.css`: The style rules that define the site appearance.
 
-```
-$ cp .env.example .env
-```
+← `src/pages`: The handlebars files that make up the site user interface. The API in `server.js` sends data to these templates to include in the HTML.
 
-Copy `.env.example` to a new file called `.env` and fill out the environment variables inside. At
-minimum `PLAID_CLIENT_ID` and `PLAID_SECRET` must be filled out. Get your Client ID and secrets from
-the dashboard: https://dashboard.plaid.com/account/keys
+← `src/pages/index.hbs`: The site homepage presents a form when the user first visits. When the visitor submits a preference through the form, the app calls the `POST` endpoint `/`, passing the user selection. The `server.js` endpoint updates the database and returns the user choices submitted so far, which the page presents in a chart (using [Chart.js](https://www.chartjs.org/docs/)–you can see the code in the page `head`).
 
-> NOTE: `.env` files are a convenient local development tool. Never run a production application
-> using an environment file with secrets in it.
+← `src/pages/admin.hbs`: The admin page presents a table displaying the log of most recent picks. You can clear the list by setting up your admin key (see `TODO.md`). If the user attempts to clear the list without a valid key, the page will present the log again.
 
-## 3. Run the Quickstart
+← `src/seo.json`: When you're ready to share your new site or add a custom domain, change SEO/meta settings in here.
 
-There are two ways to run the various language quickstarts in this repository. You can simply choose to use Docker, or you can run the
-code directly. If you would like to run the code directly, skip to the
-[Run without Docker](#run-without-docker) section.
+## Try this next 🏗️
 
-### Run with Docker
+Take a look in `TODO.md` for steps in setting up your admin key and adding to the site functionality.
 
-#### Pre-requisites
+💡 __Want to use the server script as an API without using the front-end UI? No problem! Just send a query parameter `?raw=json` with your requests to return JSON, like this (replace the first part of the URL to match your remix): `glitch-hello-sqlite.glitch.me?raw=json`__
 
-- `make` available at your command line
-- Docker installed and running on your machine: https://docs.docker.com/get-docker/
-- Your environment variables populated in `.env`
-- If using Windows, a working Linux installation on Windows 10. If you are using Windows and do not already have WSL or Cygwin configured, we recommend [running without Docker](#run-without-docker).
+___Check out [Blank SQLite](https://glitch.com/~glitch-blank-sqlite) for a minimal demo of get, post, put, and delete methods.___
 
-#### Running
+![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
 
-There are three basic `make` commands available
+## You built this with Glitch!
 
-- `up`: builds and starts the container
-- `logs`: tails logs
-- `stop`: stops the container
+[Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.
 
-Each of these should be used with a `language` argument, which is one of `node`, `python`, `ruby`,
-`java`, or `go`. If unspecified, the default is `node`.
-
-##### Start the container
-
-```
-$ make up language=node
-```
-
-The quickstart backend is now running on http://localhost:8000 and frontend on http://localhost:3000.
-
-If you make changes to one of the server files such as `index.js`, `server.go`, etc, or to the
-`.env` file, simply run `make up language=node` again to rebuild and restart the container.
-
-If you experience a Docker connection error when running the command above, try the following:
-
-- Make sure Docker is running
-- Try running the command prefixed with `sudo`
-
-##### View the logs
-
-```
-$ make logs language=node
-```
-
-##### Stop the container
-
-```
-$ make stop language=node
-```
-
-### Run without Docker
-
-#### Pre-requisites
-
-- The language you intend to use is installed on your machine and available at your command line.
-  This repo should generally work with active LTS versions of each language such as node >= 14,
-  python >= 3.8, ruby >= 2.6, etc.
-- Your environment variables populated in `.env`
-- [npm](https://www.npmjs.com/get-npm)
-- If using Windows, a command line utility capable of running basic Unix shell commands
-
-#### 1. Running the backend
-
-Once started with one of the commands below, the quickstart will be running on http://localhost:8000 for the backend. Enter the additional commands in step 2 to run the frontend which will run on http://localhost:3000.
-
-##### Node
-
-```
-$ cd ./node
-$ npm install
-$ ./start.sh
-```
-
-##### Python
-
-**:warning:  As `python2` has reached its end of life, only `python3` is supported.**
-
-```
-$ cd ./python
-
-# If you use virtualenv
-# virtualenv venv
-# source venv/bin/activate
-
-$ pip install -r requirements.txt
-$ ./start.sh
-```
-
-##### Ruby
-
-```
-$ cd ./ruby
-$ bundle
-$ ./start.sh
-```
-
-##### Go
-
-```
-$ cd ./go
-$ go build
-$ ./start.sh
-```
-
-##### Java
-
-```
-$ cd ./java
-$ mvn clean package
-$ ./start.sh
-```
-
-#### 2. Running the frontend
-
-```
-$ cd ./frontend
-$ npm install
-$ npm start
-
-```
-
-## Testing OAuth
-
-Some institutions (primarily in Europe, but a small number in the US) require an OAuth redirect 
-authentication flow, where the end user is redirected to the bank’s website or mobile app to 
-authenticate. For this flow, you should set `PLAID_REDIRECT_URI=http://localhost:3000/` in `.env`. 
-You will also need to register this localhost redirect URI in the 
-[Plaid dashboard under Team Settings > API > Allowed redirect URIs][dashboard-api-section].
-
-OAuth flows are only testable in the `sandbox` environment in this Quickstart app due to an https
-`redirect_uri` being required in other environments. Additionally, if you want to use the [Payment
-Initiation][payment-initiation] product, you will need to [contact Sales][contact-sales] to get this
-product enabled.
-
-[quickstart]: https://plaid.com/docs/quickstart
-[libraries]: https://plaid.com/docs/api/libraries
-[payment-initiation]: https://plaid.com/docs/payment-initiation/
-[node-example]: /node
-[ruby-example]: /ruby
-[python-example]: /python
-[java-example]: /java
-[go-example]: /go
-[docker]: https://www.docker.com
-[dashboard-api-section]: https://dashboard.plaid.com/team/api
-[contact-sales]: https://plaid.com/contact
+- Need more help? [Check out our Help Center](https://help.glitch.com/) for answers to any common questions.
+- Ready to make it official? [Become a paid Glitch member](https://glitch.com/pricing) to boost your app with private sharing, more storage and memory, domains and more.
