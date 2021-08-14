@@ -97,7 +97,7 @@ fastify.get("/", async (request, reply) => {
  * Send vote to database helper
  * Return updated list of votes
  */
-fastify.post("/", async (request, reply) => { 
+fastify.post("/", async (request, reply) => {
   // We only send seo if the client is requesting the front-end ui
   let params = request.query.raw ? {} : { seo: seo };
 
@@ -192,9 +192,9 @@ fastify.post("/reset", async (request, reply) => {
  */
 fastify.get("/all-puddles", async (request, reply) => {
   let params = request.query.raw ? {} : { seo: seo };
-  
+
   params.allTransactions = await db.getTransactions();
-  
+
 
   // Check in case the data is empty or not setup yet
   if (params.allTansactions.length < 1)
@@ -245,7 +245,7 @@ fastify.post('/create_link_token', async (request, response) => {
 
 
 // Run the server and report out to the logs
-fastify.listen(process.env.PORT, function(err, address) {
+fastify.listen(process.env.PORT, function (err, address) {
   if (err) {
     fastify.log.error(err);
     process.exit(1);
